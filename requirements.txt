@@ -1,0 +1,12 @@
+lmstudio
+openai
+dotenv
+sentence-transformers
+openpyxl
+pdfplumber
+pymupdf
+pathlib
+numpy
+langchain
+tabulate
+spacy-layout
