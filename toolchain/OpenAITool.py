@@ -10,16 +10,13 @@ import urllib.request
 import logging as lg
 import numpy as np
 import lmstudio as lms
+from openai import OpenAI
 from dotenv import load_dotenv
 from helper.Konfiguration import DirectoryTree
 from toolchain.ReportLoadJSON import ImportJSONReport
 from toolchain.DataPointExtractor import ExtractDataPoints
 from sentence_transformers import SentenceTransformer
 from sentence_transformers.cross_encoder import CrossEncoder
-
-
-# Third-party imports
-from openai import OpenAI
 
 # >_ lms get qwen2.5-7b-instruct-1
 # >_ > bartowski/Qwen2.5-7B-Instruct-1M-GGUF
@@ -45,62 +42,15 @@ log_name = lg.getLogger()
 log_name.setLevel(lg.INFO)
 
 ## Konfiguration ensure_directories
-
+dir = DirectoryTree.ENUMDIR
 # load_dotenv()
 # client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
 print(load_dotenv())
 api_key = os.getenv("OPENAI_API_KEY")
 # client_ = OpenAI(api_key=api_key)
 # Initialize LM Studio client
 client = OpenAI(base_url="http://127.0.0.1:1234/v1", api_key="lm-studio")
 MODEL = "qwen2.5-7b-instruct-1m"
-
-# Function definition
-def search_products(query: str, category: str = None, max_price: float = None):
-    """
-    Search products in catalog based on criteria
-    Args:
-        query: Search terms
-        category: Product category filter
-        max_price: Maximum price filter
-    Returns:
-        Search results
-    """
-    # Implementation here
-    pass
-
-# Corresponding Tool List Definition
-tools = [
-    {
-        "type": "function",
-        "function": {
-            "name": "search_products",
-            "description": "Search the product catalog by various criteria",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "query": {
-                        "type": "string",
-                        "description": "Search terms or product name"
-                    },
-                    "category": {
-                        "type": "string",
-                        "description": "Product category to filter by",
-                        "enum": ["electronics", "clothing", "home", "outdoor"]
-                    },
-                    "max_price": {
-                        "type": "number",
-                        "description": "Maximum price in dollars"
-                    }
-                },
-                "required": ["query"]
-            }
-        }
-    }
-]
-
-
 
 def fetch_report_content(search_query: str) -> dict:
     '''
@@ -111,7 +61,10 @@ def fetch_report_content(search_query: str) -> dict:
     try:
         # TODO: write a parser and traverse KV for searching and Embedding for analyzing
         # Search for most relevant article
-        report = dir[0]
+        report = ImportJSONReport(dir[0], dir[2])
+        feed = report.con_text_block(DirectoryTree.SHEET_NAME)
+        response_keys = ["Index", "Textabschnitt", "Code", "Heading", "Title", "Seite"]
+        df = pd.DataFrame(data=feed, columns=response_keys)
         search_params = {
             "action": "query",
             "format": "json",
@@ -120,7 +73,7 @@ def fetch_report_content(search_query: str) -> dict:
             "srlimit": 1,
         }
         
-        with open(report, "w", encoding="utf-8") as f:
+        with open(dir[1], "w", encoding="utf-8") as f:
             for entry in results:
                 f.write(json.dumps(entry, ensure_ascii=False) + "\n")
         
@@ -142,7 +95,6 @@ def fetch_report_content(search_query: str) -> dict:
             "explaintext": "true",
             "redirects": 1,
         }
-        print('...')
         
         content = df
         return {

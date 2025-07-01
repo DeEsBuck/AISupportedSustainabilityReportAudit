@@ -1,0 +1,587 @@
+{
+    "max_level": 2,
+    "data": [
+        {
+            "level": 0,
+            "section": "G",
+            "data": [
+                {
+                    "level": 1,
+                    "ESRS": "G1",
+                    "data": [
+                        {
+                            "level": 2,
+                            "DR": "G1-1",
+                            "heading": "[G1-1] Unternehmenskultur und Konzepte für die Unternehmensführung",
+                            "blocks": [
+                                {
+                                    "type": "title",
+                                    "content": "Entwicklung und Förderung der Unternehmenskultur",
+                                    "page": 102,
+                                    "index": 0
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die Unternehmenswerte bilden die Basis unserer Unternehmenskultur. Sie prägen unseren Umgang sowohl für das Miteinander als auch im Verhalten gegenüber internen und externen Kunden, Geschäftspartnern und der Gesellschaft. Die Werte zeigen, dass wir uns unserer unternehmerischen Verantwortung bewusst sind und uns von gemeinsamen Werten leiten lassen. Unsere Werte bieten Orientierung für den Alltag:",
+                                    "page": 102,
+                                    "index": 1
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Der Unternehmenswert „Integrität“ hat eine bedeutende Rolle – Integrität ist die Basis unseres Geschäftsmodells. Wir wollen als Bank nachhaltig und integer handeln. Das fördert das Vertrauen in uns als Bank an der Seite unserer Kundinnen und Kunden, als Arbeitgeber, Geschäftspartner, Unternehmen und wichtiger Teil der Gesellschaft. Integres und verantwortungsvolles Verhalten ist einer der stärksten Treiber für eine positive Reputation und damit für unseren Erfolg am Markt.",
+                                    "page": 102,
+                                    "index": 2
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Deshalb geben wir zum Beispiel in Deutschland jährlich die Entsprechenserklärung zum Deutschen Corporate-GovernanceKodex ab. Und wo solche Empfehlungen bestehen, berücksichtigen wir sie in unserem Verhalten.",
+                                    "page": 102,
+                                    "index": 3
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Aufbauend auf den Unternehmenswerten haben wir Verhaltensgrundsätze für integres Verhalten festgelegt, die allen Mitarbeitenden des Commerzbank-Konzerns einen verbindlichen Orientierungsrahmen für ethisches und gesetzestreues Verhalten in der täglichen Arbeit geben. Die Verhaltensgrundsätze werden regelmäßig überprüft und gegebenenfalls nachgeschärft.",
+                                    "page": 102,
+                                    "index": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Darauf aufbauend haben wir konkrete Formate entwickelt und umgesetzt. Mit dem Culture Award setzt die Bank ein Zeichen der Anerkennung und Wertschätzung. Den Award verleihen wir an diejenigen, die alles geben in Bezug auf unsere strategischen Ziele Wachstum, Verantwortung und Integrität sowie Exzellenz,",
+                                    "page": 102,
+                                    "index": 5
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Diversität und Inklusion. Der Commerzbank-Culture-Award ist bewusst partizipativ angelegt: Alle Mitarbeitenden können ihre Kolleginnen und Kollegen nominieren. Auf dieser Basis trifft eine Jury eine Vorauswahl, bevor alle Mitarbeitenden gebeten sind, im Intranet für ihren Favoriten zu stimmen. Jährlich im ersten Quartal findet eine Präsenzveranstaltung statt, bei der die Gewinnerinnen und Gewinner ihre Auszeichnung erhalten. Die jährlichen Nominierungen zeigen, dass dieses Format sehr gut  angenommen wird.",
+                                    "page": 102,
+                                    "index": 6
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Mit „Hello Yellow“ haben wir ein Onboarding-Format etabliert, mit dem wir neue Kolleginnen und Kollegen in Präsenz in der  Commerzbank begrüßen und willkommen heißen. Dabei wird  über unsere Kultur, Werte, Strategie, Marke und vieles mehr gesprochen. Ähnlich ist auch eine Veranstaltungsreihe für alle Mitarbeitenden aufgesetzt. „Hello Yellow – Meet you!“ steht unter dem Motto „Informieren und vernetzen“. Mitarbeitende erhalten in diesem Rahmen die Möglichkeit, sich zur strategischen Ausrichtung der Bank zu informieren, auszutauschen und miteinander zu vernetzen. Beide Formate werden sehr gut angenommen. Auch das Feedback zu den Veranstaltungen zeigt, dass sie inhaltlich und kulturell einen Mehrwert bieten.",
+                                    "page": 102,
+                                    "index": 7
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Um unsere Feedbackkultur zu stärken und gleichzeitig unseren Führungskräften Impulse für ihre Entwicklung zu geben, bieten wir ein freiwilliges und anonymes Führungskräfte-Feedback an. Im Jahr 2024 konnten all unsere Führungskräfte diese Entwicklungschance nutzen und die hohe Teilnahmequote bestätigt, dass dies gern wahrgenommen wird.",
+                                    "page": 102,
+                                    "index": 8
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Untersuchung rechtswidriger Verhaltensweisen",
+                                    "page": 102,
+                                    "index": 9
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die nachfolgenden Ausführungen zu Whistleblowing, Konsequenzen-Management und zur Prävention von Bestechung und Korruption umfassen die Gesellschaften des Konsolidierungskreises gemäß CSRD, die entsprechende Compliance-Relevanz  aufweisen und die gemäß der Betroffenheitsanalyse für die Ermittlung von Leistungsindikatoren, ergänzenden Ausführungen und Angabepflichten zu berücksichtigen waren.",
+                                    "page": 102,
+                                    "index": 10
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Im Berichtszeitraum neu in den Konsolidierungskreis aufgenommene Gesellschaften befinden sich teilweise noch im Prozess der Aufnahme in die Gruppensteuerung, der sogenannten Global Legal Entity Governance (LEG).",
+                                    "page": 102,
+                                    "index": 11
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Mit der LEG wird durch die bankinterne Einheit Group Compliance die Verpflichtung zur gruppenweiten Umsetzung von  Compliance-Standards in nachgeordneten Unternehmen – in  Tochter- und Enkelgesellschaften der Commerzbank – gesteuert.",
+                                    "page": 102,
+                                    "index": 12
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die getroffenen Aussagen umfassen implizit die neu in den finanziellen Konsolidierungskreis aufgenommenen Gesellschaften, wie Aquila Capital Investmentgesellschaft mbH und Yellow Automation GmbH.",
+                                    "page": 103,
+                                    "index": 13
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Verstöße gegen Gesetze, regulatorische oder interne Vorgaben werden durch die Bank nicht toleriert.",
+                                    "page": 103,
+                                    "index": 14
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Grundsätzlich wird der Umgang mit Fehlverhalten in der internen Policy „Kultur der Integrität/Konsequenzen-Management“ beschrieben. Ist ein Fehlverhalten sicher festgestellt  worden, liegt es in der Verantwortung der jeweiligen Führungskraft, in Abstimmung mit der Personalabteilung Maßnahmen einzuleiten.",
+                                    "page": 103,
+                                    "index": 15
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Liegt ein Vorwurf gegen einen Mitarbeitenden vor, bei dem ein Anfangsverdacht auf eine Straftat, Ordnungswidrigkeit oder eine schwerwiegende Pflichtverletzung aus dem Arbeitsverhältnis besteht, dieser Vorwurf jedoch weiterer Untersuchung bedarf, werden diese Untersuchungshandlungen durch die darauf spezialisierte Einheit innerhalb von Compliance im Rahmen der entsprechenden Konzernbetriebsvereinbarung zur Durchführung interner Sonderuntersuchungen vorgenommen. Die dabei angewendeten Mechanismen für die Commerzbank AG werden als Mindeststandards durch die, für die Durchführung von Sonderuntersuchungen bestimmte Einheit innerhalb Compliance, festgelegt.",
+                                    "page": 103,
+                                    "index": 16
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Schutz von Hinweisgeberinnen und Hinweisgebern",
+                                    "page": 103,
+                                    "index": 17
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Whistleblowing-Fälle, die über das Hinweisgebersystem oder andere festgelegte Meldekanäle eingehen, werden gemäß den zum Zeitpunkt der Meldung bereitgestellten Datenschutzinformationen verarbeitet. Der Austausch von Daten und Dokumenten unterliegt stets dem Need-to-know-Prinzip.",
+                                    "page": 103,
+                                    "index": 18
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Der elektronische Datenaustausch über das Hinweisgebersystem erfolgt verschlüsselt und unterliegt der Konzern-Datenschutz-Policy  und  dem  Datenschutzhandbuch. Personenbezogene Daten werden in Einklang mit dem anwendbaren Recht und internen Vorgaben übermittelt, wenn und soweit dies für die Bearbeitung des Whistleblowing-Falls nach geltendem Recht oder zur Verfolgung anderer berechtigter Interessen der Commerzbank erforderlich ist, wie zum Beispiel die Bewertung finanzieller und rechtlicher Risiken sowie Reputationsrisiken.",
+                                    "page": 103,
+                                    "index": 19
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die Commerzbank wahrt streng den Schutz der Interessen aller beteiligten Parteien wie zum Beispiel:",
+                                    "page": 103,
+                                    "index": 20
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Schutz der Hinweisgebenden, insbesondere der Schutz ihrer gegebenenfalls gewünschten Anonymität – soweit dies gesetzlich zulässig ist – sowie ihr Schutz vor Benachteiligungen, Schutz der Angeschuldigten, insbesondere ihr Schutz vor Denunziation,",
+                                    "page": 103,
+                                    "index": 21
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Schutz der Commerzbank, insbesondere zu deren Risiko- und Schadensminimierung.",
+                                    "page": 103,
+                                    "index": 22
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Jeder und jede, die in gutem Glauben und nach bestem Wissen berichten, werden so weit wie möglich durch das anwendbare Recht gegen ungerechte Behandlung, Entlassung oder  sonstige Nachteile infolge seiner Offenlegung geschützt, auch dann, wenn sich im Laufe der Ermittlung herausstellt, dass der gemeldete Verdacht unbegründet ist.",
+                                    "page": 103,
+                                    "index": 23
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die Bank nutzt das Intranet sowie die Homepage als Kommunikationskanäle für das Thema Hinweisgeberschutz und verweist auf die implementierten Meldekanäle. Zudem haben wir eine Verfahrensordnung zum Beschwerdeverfahren im Sinne des Lieferkettensorgfaltspflichtengesetzes veröffentlicht. Ferner wird im Rahmen verschiedener Schulungsmaßnahmen für die Mitarbeitenden der Bank auf das Thema Whistleblowing hingewiesen.",
+                                    "page": 103,
+                                    "index": 24
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Verfahren zur Untersuchung von Verstößen gegen die Unternehmenspolitik",
+                                    "page": 103,
+                                    "index": 25
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Über ein Segment-übergreifendes Gremium operationalisiert der  Vorstand der Commerzbank grundsätzlich seine Pflicht zur  Durchführung von internen Sonderuntersuchungen bei einem dokumentierten Verdacht auf Fehlverhalten.",
+                                    "page": 103,
+                                    "index": 26
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Sonderuntersuchungen mit Bezug zu Mitarbeitenden werden unabhängig, integer und objektiv durchgeführt. Die Regelzuständigkeit für diese Sonderuntersuchungen liegt gemäß separatem Vorstandsmandat in einem Bereich innerhalb der internen Compliance-Abteilung.",
+                                    "page": 103,
+                                    "index": 27
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die Compliance-Funktion legt die Mindeststandards für die Durchführung von Sonderuntersuchungen mit Bezug zu Mitarbeitenden für die Commerzbank fest. Damit wird eine einheitliche  und  transparente  Handhabung  von  internen  Sonderuntersuchungen im Konzern sichergestellt.",
+                                    "page": 103,
+                                    "index": 28
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Zur Wahrung der Unabhängigkeit der zuständigen Compliance-Funktion werden interne Sonderuntersuchungen nur im Auftrag berechtigter Auftraggeber gemäß separatem Vorstandsmandat durchgeführt.",
+                                    "page": 103,
+                                    "index": 29
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Durch den Bereich durchgeführte interne Sonderuntersuchungen versetzen den Vorstand sowie die im Rahmen der Geschäftsorganisation beauftragten weiteren Entscheidungsträger beziehungsweise die Geschäftsführungen in den jeweiligen Konzerngesellschaften in die Lage, informierte Entscheidungen zu treffen und mögliche Verstöße zu beenden sowie festgestelltes Fehlverhalten zu sanktionieren und für die Zukunft zu vermeiden.",
+                                    "page": 103,
+                                    "index": 30
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Schulungen zur Unternehmenspolitik",
+                                    "page": 104,
+                                    "index": 31
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die Verhaltensgrundsätze der Commerzbank bilden neben den Werten der Bank auch weitere Themen ab, die regelmäßig im Rahmen von Pflichtschulungen (meist jährlich) allen Mitarbeitenden zur Verfügung gestellt und deren Bearbeitung nachgehalten wird.",
+                                    "page": 104,
+                                    "index": 32
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Um die Kultur der Integrität darüber hinaus zu fördern, erhalten Führungskräfte in einer obligatorischen jährlichen Onlineschulung Informationen zum Konsequenzen-Management. Auch bei Neuaufnahme einer Führungsfunktion erfolgt eine entsprechende Schulung. Für Mitarbeitende steht die Onlineschulung als optionale Schulungsmaßnahme zur Verfügung.",
+                                    "page": 104,
+                                    "index": 33
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Risikobehaftete Funktionen im Zusammenhang mit Korruption und Bestechung",
+                                    "page": 104,
+                                    "index": 34
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Grundsätzlich können in allen Funktionen und Verantwortlichkeiten inhärente Korruptions- und Bestechungsrisiken bestehen. Risikobegünstigende Faktoren wie zum Beispiel die Annahme und Vergabe von Geschenken und Einladungen sowie der Umgang mit Geschäftspartnern können im täglichen Geschäftsgebaren in allen Funktionen auftreten. Gemäß des in der Bank implementierten „Three Lines of Defense“-Konzepts stellt daher jeder Mitarbeitende in seiner Funktion die erste Verteidigungslinie für die Prävention von Bestechungs- und Korruptionsrisiken dar. Mitarbeitende sind dafür verantwortlich, die geltenden Antikorruptionsgesetze und Anforderungen interner Richtlinien zur  Bekämpfung von Bestechung sowie weitere anwendbare Richtlinien der Commerzbank einzuhalten. Für weitere Informationen siehe Standard G1-3 „Schulungen zur Bekämpfung von Korruption und Bestechung“.",
+                                    "page": 104,
+                                    "index": 35
+                                }
+                            ]
+                        },
+                        {
+                            "level": 2,
+                            "DR": "G1-3",
+                            "heading": "[G1-3] Verhinderung und Aufdeckung von Korruption und Bestechung",
+                            "blocks": [
+                                {
+                                    "type": "title",
+                                    "content": "Verfahren zum Umgang mit Vorfällen in Bezug auf Korruption oder Bestechung",
+                                    "page": 104,
+                                    "index": 0
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Es ist oberste Maxime, Bestechung und Korruption mit Nulltoleranz zu begegnen. Bestechung, Korruption und sonstige strafbare Handlungen durch Beschäftigte werden von der  Commerzbank nach dieser Maxime verfolgt. Alle Mitarbeitenden, die nachweislich gegen diesen Grundsatz verstoßen, müssen die arbeits-, zivil- oder strafrechtlichen Konsequenzen tragen.",
+                                    "page": 104,
+                                    "index": 1
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "",
+                                    "page": 104,
+                                    "index": 2
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Der Bereichsvorstand Group Compliance und die Bereichsleitung der spezialisierten Einheit für Sonderuntersuchungen informieren den Vorstand regelmäßig und anlassbezogen über  aktuelle Themen, Projekte und wesentliche laufende Sonderuntersuchungen. Zudem erhält der Prüfungsausschuss des Aufsichtsrats anlassbezogene Reports.",
+                                    "page": 104,
+                                    "index": 3
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Für weitere Ausführungen zu den Verfahren zum Umgang mit Vorfällen von Korruption und Bestechung siehe Standard S1-3 „Ansatz zur Durchführung von Abhilfemaßnahmen“, Standard  S1-17 unter anderem „Untersuchung rechtswidriger Verhaltensweisen“, sowie Standard G1-1 im Teil „Verfahren zur Untersuchung von Verstößen gegen die Unternehmenspolitik“.",
+                                    "page": 104,
+                                    "index": 4
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Verfahren zur Verhinderung von Korruption und Bestechung",
+                                    "page": 104,
+                                    "index": 5
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die Commerzbank hat die ethische und regulatorische Verantwortung sicherzustellen, dass robuste interne Sicherungsmaßnahmen und Kontrollen zur Prävention von Bestechungs- und  Korruptionsrisiken implementiert sind. Hierzu werden die Verantwortlichkeiten zur Bekämpfung von Bestechung und Korruption sowie der Umgang mit korruptionssensitiven Themen und  Prozessen in einem schriftlichen Rahmenwerk, der Global AntiBribery and Corruption Policy (ABC-Policy), definiert.",
+                                    "page": 104,
+                                    "index": 6
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Mit der ABC-Policy positioniert sich die Commerzbank aktiv  gegen Bestechung, Vorteilsnahme und andere Formen der Korruption. Sie umfasst bankweit gültige Einzelmaßnahmen wie dezidierte Vorgaben im Bereich Geschenke und Einladungen und definiert den Umgang mit korruptionssensitiven Themen. Hierzu  zählt unter anderem die „Geschäftspartner-Prüfung“, bei der die Commerzbank risikobasiert im Rahmen der Geschäftsanbahnung und im Laufe der Geschäftsbeziehung kontinuierlich kommerzielle Datenbanken auf korruptionsrelevante Einträge überprüft. Zudem enthalten neu verhandelte Verträge der Commerzbank mit ihren Dienstleistern seit einigen Jahren eine Integritätsklausel. Darüber hinaus stellt die Sensibilisierung der Mitarbeitenden zu Bestechungs- und Korruptionsrisiken ein zentrales Element  der Präventionsstrategie dar. Hierzu zählen regelmäßige interne und externe Kommunikation, verschiedene Schulungsformate sowie die Kommunikation zu global verbindlichen Verhaltensgrundsätzen (Code of Conduct) und weitere konkretisierende Anweisungen und Prozessbeschreibungen für spezifische Bereiche.",
+                                    "page": 104,
+                                    "index": 7
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Das Konzept ergänzend begleitet und berät Group Compliance die Geschäftseinheiten bei Prozessentwicklung und Transaktionen, wie zum Beispiel bei M&A-Transaktionen. Zusätzlich zur Beratungsfunktion durch Group Compliance sind in allen  deutschen  Einheiten und  an  den Auslandsstandorten",
+                                    "page": 104,
+                                    "index": 8
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Mitarbeitende benannt, die vor Ort als Kontaktpersonen für Fragen zur Korruptionsprävention zur Verfügung stehen.",
+                                    "page": 105,
+                                    "index": 9
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Im Rahmen der globalen Compliance-Risikoanalyse werden  zudem in einem dezidierten Teil Bestechungs- und Korruptionsrisiken behandelt, in dem die aktuelle Risikosituation erhoben und die damit verbundenen Kontrollaktivitäten bewertet werden. Die im Rahmen der Analyse betrachteten potenziellen Bestechungs- und Korruptionsrisiken umfassen im Wesentlichen die Risikofaktoren Zuwendungen, Geschäftspartner-Compliance, Lobbying, Spenden- und Sponsoringtätigkeiten sowie Einstellungs- und Personalprozesse. Die aus der Analyse abgeleiteten  Maßnahmen zur Prävention begleitet Group Compliance in der  Implementierung, überprüft diese regelmäßig auf ihre Wirksamkeit und ergänzt sie bei Bedarf.",
+                                    "page": 105,
+                                    "index": 10
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Um den Zugang zu Compliance-relevanten Informationen sicherzustellen, werden Richtlinien, Anweisungen und Verfahren  hinsichtlich der Bestechungs- und Korruptionsbekämpfung in einem bankinternen Compliance-Policy-Portal veröffentlicht. Dieses ist weltweit zweisprachig, in deutscher und englischer  Sprache, verfügbar. Ebenfalls werden hier lokale Spezifika in Form von Addenda veröffentlicht. Bei Änderungen an den Regelwerken werden relevante Nutzerinnen und Nutzer systemseitig über eine Mitteilungsfunktion informiert. Zusätzlich wird das Intranet der Bank genutzt, um gezielt zu Inhalten von Policies zu  informieren. Auf das Intranet der Bank sowie das bankinterne Portal haben Mitarbeitende sowie die Mitglieder des Aufsichtsrats und des Vorstands Zugriff.",
+                                    "page": 105,
+                                    "index": 11
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Schulungen zur Bekämpfung von Korruption und Bestechung",
+                                    "page": 105,
+                                    "index": 12
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Alle Mitarbeitenden der Commerzbank werden jährlich durch Zuweisung eines webbasierten Trainings zu den Vorgaben der ABC-Policy geschult und in ihrer Funktion als erste Verteidigungslinie zu Bestechungs- und Korruptionsrisiken sensibilisiert. Das Training schafft ein allgemeines Bewusstsein für Bestechungs- und Korruptionsrisiken und vermittelt Grundlagenwissen zur Prävention sowie zum Umgang mit potenziell  risikobegünstigenden Faktoren wie zum Beispiel Geschenken und Einladungen oder zum Umgang mit Geschäftspartnern. Darüber hinaus wird auf die entsprechenden Meldewege bei Verdachtsfällen sowie die Kontaktpersonen bei Fragen zur  Korruptionsprävention hingewiesen.",
+                                    "page": 105,
+                                    "index": 13
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Das Training richtet sich an alle Mitarbeitenden der Commerzbank AG und ihrer Tochtergesellschaften, die als relevant für  dieses Training definiert wurden, und ist verpflichtend zu absolvieren. Die Trainingszuweisung erfolgt automatisiert über ein  Learning-Management-System. Die Absolvierung des Pflichttrainings wird systemseitig über einen Eskalationsprozess sichergestellt. Es wird eine Absolvierungsquote von  $1 0 0 ~ \\%$  angestrebt.",
+                                    "page": 105,
+                                    "index": 14
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Im Falle dauerhafter Abwesenheiten einzelner Mitarbeitenden ist diese nicht stets realisierbar.",
+                                    "page": 105,
+                                    "index": 15
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Daneben erhalten Geschäfts- und Funktionseinheiten sowie Personen, die im Rahmen ihrer Tätigkeit vermehrt risikobegünstigenden Faktoren begegnen, zusätzliche gezielte Trainings. In diesem Rahmen werden auch der Aufsichtsrat und der Vorstand durch den Chief Compliance Officer zu bestechungs- und korruptionsrelevanten Themen sensibilisiert und geschult. Besonderer Fokus liegt hierbei auf den risikobegünstigenden Faktoren wie  zum Beispiel Geschenken und Einladungen sowie den diesbezüglich einzuhaltenden Anforderungen.",
+                                    "page": 105,
+                                    "index": 16
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Konzepte",
+                                    "page": 105,
+                                    "index": 17
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die Konzepte zur Prävention von Bestechungen und Korruption sind in einem globalen Rahmenwerk definiert. Weitere Informationen sind in Standard G1-3, Abschnitt „Verhinderung von Korruption und Bestechung“ dargestellt.",
+                                    "page": 105,
+                                    "index": 18
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die ABC-Policy definiert Mindestanforderungen, Rollen und Verantwortlichkeiten bezüglich der Verhinderung von Bestechung und Korruption sowie Maßnahmen zur Vorbeugung, Aufdeckung  und  zum  angemessenen  Umgang  mit  Korruptionstatbeständen.",
+                                    "page": 105,
+                                    "index": 19
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Insgesamt werden folgende Risikobereiche adressiert: Governance, Strukturen und Schulungen, Personalprozesse, Zuwendungen, Geschäftspartner-Compliance, Lobbying und politische Kommunikation, Spenden und Sponsorings, Buchführungsund Aufzeichnungspflichten.",
+                                    "page": 105,
+                                    "index": 20
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Um potenzielle Bestechungs- und Korruptionsrisiken regelmäßig zu überprüfen und zu überwachen, hat Group Compliance risikobasierte Sicherungsmaßnahmen implementiert. Diese umfassen neben einer dezidierten Compliance-Risikoanalyse zu Bestechungs- und Korruptionsrisiken die Durchführung von  Kontrollen und lokalen Reviews. Die Sicherungsmaßnahmen adressieren und minimieren hierbei die relevanten ABC-Risikobereiche.",
+                                    "page": 105,
+                                    "index": 21
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die ABC-Policy findet Anwendung auf den Vorstand, die Führungskräfte und Mitarbeitende der Commerzbank AG, inklusive ihrer Tochtergesellschaften, die auf Basis der LEG-Policy als relevant definiert wurden. Der Inhalt der ABC-Policy findet auch in Ländern Anwendung, in denen weniger strenge regulatorische Vorschriften gelten.",
+                                    "page": 105,
+                                    "index": 22
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Für die Freigabe der ABC-Policy ist die zuständige Bereichsleitung in Group Compliance verantwortlich.",
+                                    "page": 105,
+                                    "index": 23
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Standards oder Initiativen Dritter",
+                                    "page": 105,
+                                    "index": 24
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Im Kampf gegen Korruption und Bestechung berücksichtigt die Commerzbank nicht nur gesetzliche Verpflichtungen wie das  deutsche Strafgesetzbuch, den UK Bribery Act oder den US Foreign Corrupt Practices Act, sondern ebenso die Prinzipien des",
+                                    "page": 105,
+                                    "index": 25
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "UN Global Compact, die OECD-Leitlinien für multinationale Unternehmen und die OECD-Konventionen gegen die Bestechung ausländischer Amtsträgerinnen und Amtsträger im internationalen Geschäftsverkehr.",
+                                    "page": 106,
+                                    "index": 26
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Sie berücksichtigt daneben auch die international anerkannten Standards wie die Empfehlungen der „Financial Action Task Force on Money Laundering“ (FATF) oder die „Wolfsberg AntiMoney Laundering Principles“ beziehungsweise die „Wolfsberg Anti-Bribery and Corruption (ABC) Compliance Programme Guidance“.",
+                                    "page": 106,
+                                    "index": 27
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Zudem richtet sich die Commerzbank mit ihrer ABC-Policy auch nach den anwendbaren Standards und Grundsätzen der „United Nations Convention against Corruption“ (UNCAC). Die UNCAC ist ein völkerrechtlicher Vertrag, der die ratifizierenden Staaten zur Bekämpfung und Bestrafung von Korruption verpflichtet. Deutschland hat die UNCAC im Jahr 2014 ratifiziert.",
+                                    "page": 106,
+                                    "index": 28
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Maßnahmen",
+                                    "page": 106,
+                                    "index": 29
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Durch die Implementierung eines umfangreichen Anti-Korruptions- und Bestechungs-Rahmenwerks sowie die Einhaltung der verankerten Mindeststandards und Sicherungsmaßnahmen wird das Ziel verfolgt, Korruptionsfälle im Konzern vollständig zu verhindern. Darüber hinaus stehen die Stärkung der ComplianceKultur und die stetige Verbesserung von Sicherungsmaßnahmen unter Berücksichtigung aktueller Entwicklungen im Fokus.",
+                                    "page": 106,
+                                    "index": 30
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Um die gesetzten Ziele zu erreichen, werden die implementierten Policies, Richtlinien und Prozesse regelmäßig aktualisiert sowie bestehende Sicherungsmaßnahmen auf ihre Wirksamkeit überprüft. Durch eine regelmäßige interne und externe Kommunikation, verschiedene Schulungsformate sowie die global verbindlichen Verhaltensgrundsätze (Code of Conduct) wird eine integritätsfördernde Unternehmenskultur gewahrt.",
+                                    "page": 106,
+                                    "index": 31
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die Commerzbank hat die relevanten Sicherungsmaßnahmen gemäß einem risikobasierten Ansatz implementiert. Weitere Maßnahmen sind aktuell nicht erforderlich. Die Verpflichtung zur gruppenweiten Umsetzung von Maßnahmen wird durch Group Compliance gesteuert. In diesem Zusammenhang wird der Umfang der zu implementierenden Maßnahmen definiert. Weitere Angaben zu den Maßnahmen finden sich in Standard G1-4 „Vorfälle und Maßnahmen in Bezug auf Korruption oder Bestechung“",
+                                    "page": 106,
+                                    "index": 32
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Kennzahlen",
+                                    "page": 106,
+                                    "index": 33
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Als Parameter wird der prozentuale Anteil von Mitarbeitenden in risikobehafteten Funktionen in der Commerzbank dargestellt, die Schulungsmaßnahmen zur Verhinderung von Korruption und Bestechung absolvieren.",
+                                    "page": 106,
+                                    "index": 34
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Der Parameter bezieht sich auf Mitarbeitende der Commerzbank AG inklusive ihrer Tochtergesellschaften, die entsprechende Compliance-Relevanz aufweisen, und betrug im  Berichtszeitraum $1 0 0 \\%$ .",
+                                    "page": 106,
+                                    "index": 35
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Für weitere Informationen hierzu siehe Standard G1-1 „Risikobehaftete Funktionen im Zusammenhang mit Korruption und  Bestechung“ sowie Standard G1-3 „Schulungen zur Bekämpfung von Korruption und Bestechung“.",
+                                    "page": 106,
+                                    "index": 36
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die Erhebung des Parameters wurde von der für die Qualitätssicherung zuständigen externen Stelle validiert.",
+                                    "page": 106,
+                                    "index": 37
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Ziele",
+                                    "page": 106,
+                                    "index": 38
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Das übergreifende Ziel der Commerzbank ist es, aktiv gegen Bestechung, Vorteilsnahme und andere Formen der Korruption vorzugehen und Korruptionsfälle im Konzern vollständig zu  verhindern. Aus diesem Grund sind daneben keine konkreten Zielvorgaben definiert.",
+                                    "page": 106,
+                                    "index": 39
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Im Rahmen von regelmäßigen Überwachungshandlungen wird die Einhaltung der implementierten Regeln und Vorgaben  zur Prävention von Bestechung und Korruption sichergestellt. Die hierbei durchgeführten Kontrollen werden jährlich auf Effektivität geprüft. Zudem prüft die Interne Revision (Group Audit) als dritte Verteidigungslinie regelmäßig das Bestechungs- und  Korruptionspräventions-Rahmenwerk. Im Bedarfsfall werden Adhoc-Maßnahmen umgesetzt.",
+                                    "page": 106,
+                                    "index": 40
+                                }
+                            ]
+                        },
+                        {
+                            "level": 2,
+                            "DR": "G1-4",
+                            "heading": "[G1-4] Vorfälle und Maßnahmen in Bezug auf Korruption oder Bestechung",
+                            "blocks": [
+                                {
+                                    "type": "title",
+                                    "content": "Konzepte",
+                                    "page": 106,
+                                    "index": 0
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Ausführungen hierzu finden sich in Standard G1-3.",
+                                    "page": 106,
+                                    "index": 1
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Maßnahmen",
+                                    "page": 106,
+                                    "index": 2
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Durch das Konsequenzen-Management werden Verstöße gegen  Regelwerke sowie gesetzliche oder regulatorische Bestimmungen in der Commerzbank einheitlich geahndet. Verstöße gegen  die Richtlinien zur Prävention von Korruption und Bestechung sind von der jeweils verantwortlichen Führungskraft in Zusammenarbeit mit der Personalabteilung zu prüfen und gegebenenfalls zu sanktionieren. Bestechung und Korruption durch  Beschäftigte werden von der Commerzbank ausdrücklich nach  dem Nulltoleranzprinzip verfolgt. Alle Mitarbeitenden, die nachweislich gegen diesen Grundsatz verstoßen, muss die arbeits-, zivil- oder strafrechtlichen Konsequenzen tragen. Weitere Informationen zum Konsequenzen-Management finden sich auch in Standard S1-3 und S1-17.",
+                                    "page": 106,
+                                    "index": 3
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "",
+                                    "page": 107,
+                                    "index": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Weitere Ausführungen zu den Maßnahmen finden sich in Standard G1-3.",
+                                    "page": 107,
+                                    "index": 5
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Kennzahlen",
+                                    "page": 107,
+                                    "index": 6
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die Anzahl der Verurteilungen wegen Verstößen gegen Korruptions- und Bestechungsvorschriften sowie die Höhe der Geldstrafen, die in diesem Zusammenhang gezahlt wurden, sind in der  untenstehenden Tabelle dargestellt. Die Kennzahlen beinhalten hierbei rechtskräftige beziehungsweise abgeschlossene Gerichtsverfahren gegen die Bank und Mitarbeitende der Bank im  Rahmen ihrer beruflichen Tätigkeit aufgrund von Bestechung  und Korruption. Die Erfassung der Anzahl der Verurteilungen und der Höhe der Geldstrafen erfolgt unter Berücksichtigung möglicher Einschränkungen durch geltendes Arbeitsrecht, des Datenschutzes und der rechtlichen Zulässigkeit einer Abfrage der strafrechtlichen Verurteilung der Arbeitnehmerin oder des Arbeitnehmers.",
+                                    "page": 107,
+                                    "index": 7
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Im Berichtszeitraum sind wie in den Vorjahren keine Verurteilungen wegen Verstößen gegen Korruptions- und Bestechungsvorschriften der Commerzbank bekannt. In diesem  Zusammenhang wurden auch keine Geldstrafen gezahlt.",
+                                    "page": 107,
+                                    "index": 8
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die Erhebung der oben beschriebenen Kennzahlen wurde von der für die Qualitätssicherung zuständigen externen Stelle validiert.",
+                                    "page": 107,
+                                    "index": 9
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Korruptions- und Bestechungsfälle",
+                                    "page": 107,
+                                    "index": 10
+                                },
+                                {
+                                    "type": "table",
+                                    "table_path": "2f49d31c8e27cbf30fcb80730086231e22e9e157544c5c077baff9bf85930364.jpg",
+                                    "table_caption": "",
+                                    "table_footnote": "",
+                                    "table_html": "<html><body><table><tr><td></td><td></td></tr><tr><td></td><td>2024</td></tr><tr><td>Anzahl der Verurteilungen wegen Verstoβen gegen</td><td></td></tr><tr><td>Korruptions- und Bestechungsvorschriften</td><td>0</td></tr><tr><td>Hohe der Geldstrafen,die wegen Verstoβen gegen Korruptions- und Bestechungsvorschriften gezahlt wurde</td><td>0</td></tr></table></body></html>",
+                                    "page": 107,
+                                    "index": 11
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Ziele",
+                                    "page": 107,
+                                    "index": 12
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Ausführungen zu Zielen im Zusammenhang mit Korruption und Bestechung finden sich in Standard G1-3 im Abschnitt „Ziele“.",
+                                    "page": 107,
+                                    "index": 13
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

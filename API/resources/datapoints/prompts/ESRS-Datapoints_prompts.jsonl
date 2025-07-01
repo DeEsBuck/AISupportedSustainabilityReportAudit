@@ -1,0 +1,55 @@
+{"prompt": "Paragraph 5a \u2013 Disclosure of role of administrative, management and supervisory bodies related to business conduct", "completion": "narrative"}
+{"prompt": "Paragraph 5 b \u2013 Disclosure of expertise of administrative, management and supervisory bodies on business conduct matters", "completion": "narrative"}
+{"prompt": "Paragraph 7 \u2013 Policies in place to manage its material impacts, risks and opportunities related to business conduct and corporate culture [see ESRS 2 MDR-P]", "completion": "MDR-P"}
+{"prompt": "Paragraph 9 \u2013 Description of how the undertaking establishes, develops, promotes and evaluates its corporate culture", "completion": "narrative"}
+{"prompt": "Paragraph 10a \u2013 Description of the mechanisms for identifying, reporting and investigating concerns about unlawful behaviour or behaviour in contradiction of its code of conduct or similar internal rules", "completion": "narrative"}
+{"prompt": "Paragraph 10 b \u2013 No policies on anti-corruption or anti-bribery consistent with United Nations Convention against Corruption are in place", "completion": "semi-narrative"}
+{"prompt": "Paragraph 10 b \u2013 Timetable for implementation of policies on anti-corruption or anti-bribery consistent with United Nations Convention against Corruption", "completion": "narrative"}
+{"prompt": "Paragraph 10 c \u2013 Disclosure of safeguards for reporting irregularities including whistleblowing protection", "completion": "narrative"}
+{"prompt": "Paragraph 10 d \u2013 No policies on protection of whistle-blowers are in place", "completion": "semi-narrative"}
+{"prompt": "Paragraph 10 d \u2013 Timetable for implementation of policies on protection of whistle-blowers", "completion": "narrative"}
+{"prompt": "Paragraph 10 e \u2013 Undertaking is committed to investigate business conduct incidents promptly, independently and objectively", "completion": "semi-narrative"}
+{"prompt": "Paragraph 10 f \u2013 Policies with respect to animal welfare are in place", "completion": "semi-narrative"}
+{"prompt": "Paragraph 10 g  \u2013 Information about policy for training within organisation on business conduct", "completion": "narrative"}
+{"prompt": "Paragraph 10 h \u2013 Disclosure of the functions that are most at risk in respect of corruption and bribery", "completion": "narrative"}
+{"prompt": "Paragraph 11 \u2013 Entity is subject to legal requirements with regard to protection of whistleblowers", "completion": "semi-narrative"}
+{"prompt": "Paragraph 14 \u2013 Description of policy to prevent late payments, especially to SMEs", "completion": "narrative"}
+{"prompt": "Paragraph 15 a  \u2013 Description of approaches in regard to relationships with suppliers, taking account risks related to supply chain and impacts on sustainability matters", "completion": "narrative"}
+{"prompt": "Paragraph 15 b \u2013 Disclosure of whether and how social and environmental criteria are taken into account for selection of supply-side contractual partners", "completion": "narrative"}
+{"prompt": "Paragraph mdr_no_p \u2013 mdr_no_p", "completion": "nan"}
+{"prompt": "Paragraph 18 a \u2013 Information about procedures in place to prevent, detect, and address allegations or incidents of corruption or bribery", "completion": "narrative"}
+{"prompt": "Paragraph 18 b \u2013 Investigators or investigating committee are separate from chain of management involved in prevention and detection of corruption or bribery", "completion": "semi-narrative"}
+{"prompt": "Paragraph 18 c \u2013 Information about process to report outcomes to administrative, management and supervisory bodies", "completion": "narrative"}
+{"prompt": "Paragraph 19 \u2013 Disclosure of plans to adopt procedures to prevent, detect, and address allegations or incidents of corruption or bribery in case of no procedure", "completion": "narrative"}
+{"prompt": "Paragraph 20 \u2013 Information about how policies are communicated to those for whom they are relevant (prevention and detection of corruption or bribery)", "completion": "narrative"}
+{"prompt": "Paragraph 21 a  \u2013 Information about nature, scope and depth of anti-corruption or anti-bribery training programmes offered or required", "completion": "narrative"}
+{"prompt": "Paragraph 21 b \u2013 Percentage of functions-at-risk covered by training programmes", "completion": "Percent"}
+{"prompt": "Paragraph 21 c \u2013 Information about members of administrative, supervisory and management bodies relating to anti-corruption or anti-bribery training", "completion": "narrative"}
+{"prompt": "Paragraph AR 7 \u2013 Disclosure of an analysis of its training activities by, for example, region of training or category", "completion": "narrative"}
+{"prompt": "Paragraph mdra \u2013 mdra", "completion": "mdra"}
+{"prompt": "Paragraph 24 a \u2013 Number of convictions for violation of anti-corruption and anti- bribery laws", "completion": "Integer"}
+{"prompt": "Paragraph 24 a \u2013 Amount of fines for violation of anti-corruption and anti- bribery laws", "completion": "Monetary"}
+{"prompt": "Paragraph 24 b \u2013 Prevention and detection of corruption or bribery - anti-corruption and bribery training table", "completion": "Table"}
+{"prompt": "Paragraph 25 a \u2013 Number of confirmed incidents of corruption or bribery", "completion": "Integer"}
+{"prompt": "Paragraph 25 a \u2013 Information about nature of confirmed incidents of corruption or bribery", "completion": "narrative"}
+{"prompt": "Paragraph 25 b \u2013 Number of confirmed incidents in which own workers were dismissed or disciplined for corruption or bribery-related incidents", "completion": "Integer"}
+{"prompt": "Paragraph 25 c \u2013 Number of confirmed incidents relating to contracts with business partners that were terminated or not renewed due to violations related to corruption or bribery", "completion": "Integer"}
+{"prompt": "Paragraph 25 d \u2013 Information about details of public legal cases regarding corruption or bribery brought against undertaking and own workers and about outcomes of such cases", "completion": "narrative"}
+{"prompt": "Paragraph 29 a \u2013 Information about representative(s) responsible in administrative, management and supervisory bodies for oversight of political influence and lobbying activities", "completion": "narrative"}
+{"prompt": "Paragraph 29 b \u2013 Information about financial or in-kind political contributions", "completion": "narrative"}
+{"prompt": "Paragraph 29 b i \u2013 Financial political contributions made", "completion": "Monetary"}
+{"prompt": "Paragraph AR 12 a \u2013 Amount of internal and external lobbying expenses", "completion": "Monetary"}
+{"prompt": "Paragraph AR 12 b \u2013 Amount paid for membership to lobbying associations", "completion": "Monetary"}
+{"prompt": "Paragraph 29 b i \u2013 In-kind political contributions made", "completion": "Monetary"}
+{"prompt": "Paragraph 29 b ii \u2013 Disclosure of how monetary value of in-kind contributions is estimated", "completion": "narrative"}
+{"prompt": "Paragraph 29 b ii \u2013 Financial and in-kind political contributions made [table]", "completion": "Table"}
+{"prompt": "Paragraph 29 c \u2013 Disclosure of main topics covered by lobbying activities and undertaking's main positions on these topics", "completion": "narrative"}
+{"prompt": "Paragraph 29 d \u2013 Undertaking is registered in EU Transparency Register or in equivalent transparency register in Member State", "completion": "semi-narrative"}
+{"prompt": "Paragraph 30 \u2013 Information about appointment of any members of administrative, management and supervisory bodies who held comparable position in public administration in two years preceding such appointment", "completion": "narrative"}
+{"prompt": "Paragraph AR13 \u2013 The entity is legally obliged to be a member of a chamber of commerce or other organisation that represents its interests", "completion": "semi-narrative"}
+{"prompt": "Paragraph mdr_no_a \u2013 mdr_no_a", "completion": "nan"}
+{"prompt": "Paragraph 33 a \u2013 Average number of days to pay invoice from date when contractual or statutory term of payment starts to be calculated", "completion": "Integer"}
+{"prompt": "Paragraph 33 b \u2013 Description of undertakings standard payment terms in number of days by main category of suppliers", "completion": "narrative"}
+{"prompt": "Paragraph 33 b \u2013 Percentage of payments aligned with standard payment terms", "completion": "Percent"}
+{"prompt": "Paragraph 33 c \u2013 Number of outstanding legal proceedings for late payments", "completion": "Integer"}
+{"prompt": "Paragraph 33 d \u2013 Disclosure of contextual information regarding payment practices", "completion": "narrative"}

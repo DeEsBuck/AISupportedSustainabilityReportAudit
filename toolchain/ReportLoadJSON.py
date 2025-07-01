@@ -150,5 +150,18 @@ class ImportJSONReport:
         
         return result
     
+    def export_to_json(self, keys, data):
+        """
+        Takes a list of keys and a list of value lists,
+        and returns a JSON string where each entry is a dict mapping keys to values.
+        :param keys: List of key names (e.g. ["Index", "Textabschnitt", "Code", "Heading", "Title", "Seite"])
+        :param data: List of lists (or tuples), where each sublist contains values corresponding to the keys
+        :return: JSON string of the structured list
+        """
+        result = []
+        for row in data:
+            entry = dict(zip(keys, row))
+            result.append(entry)
+        return json.dumps(result, ensure_ascii=False, indent=2)
 
     

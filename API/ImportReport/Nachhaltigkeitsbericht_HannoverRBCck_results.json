@@ -1,0 +1,344 @@
+{
+    "max_level": 2,
+    "data": [
+        {
+            "level": 0,
+            "section": "G",
+            "data": [
+                {
+                    "level": 1,
+                    "ESRS": "G1",
+                    "data": [
+                        {
+                            "level": 2,
+                            "DR": "G1-1",
+                            "heading": "Unternehmenskultur und Konzepte für die Unternehmensführung [G1-1]",
+                            "blocks": [
+                                {
+                                    "type": "title",
+                                    "content": "Unternehmenskultur",
+                                    "page": 82,
+                                    "index": 0
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "[G1-1_9, AR_1] Die Hannover Rück-Gruppe ist einer der weltweit führenden Rückversicherer. Sie betreibt alle Sparten der Schaden- und PersonenRückversicherung und ist mit mehr als 4.100 Mitarbeitenden weltweit  präsent. Der Claim „somewhat different“ spiegelt einen Kernbestandteil der Unternehmenskultur wider, indem er auf ein besonders kunden- und lösungsorientiertes Mindset verweist. Dies ist ein strategisches Differenzierungsmerkmal.",
+                                    "page": 82,
+                                    "index": 1
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Auch das 2019 in einem Bottom-up-Prozess entwickelte Selbstverständnis (Purpose) sowie die Werte (Values) reflektieren die starke, partnerschaftliche Unternehmenskultur der Hannover Rück. Das  Selbstverständnis lautet: Beyond risk-sharing – we team up to create opportunities. Die Werte lauten: Responsibility, We Spirit und Drive.",
+                                    "page": 82,
+                                    "index": 2
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Der Strategiezyklus der Hannover Rück umfasst drei Jahre. Die Konzernstrategie 2024–2026 „Staying Focused. Thinking Ahead.“ zielt auf branchenführende Performance in Bezug auf Profitabilität und  Gewinnwachstum, eine zuverlässige ökonomische Wertschöpfung sowie eine attraktive und steigende Basisdividende ab. Eine weitere strategische Zielgröße ist die Kapitalstärke der Hannover Rück. Neben diesen finanziellen Zielen beinhaltet die Ambition der Konzernstrategie auch  strategische Ziele zum Engagement der Mitarbeitenden sowie zu ökologischer Verantwortung.",
+                                    "page": 82,
+                                    "index": 3
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die Hannover Rück verfügt über gruppenweit gültige Geschäftsgrundsätze (Code of Conduct), die auf dem Selbstverständnis des Unternehmens basieren und seine Werte widerspiegeln. Die Geschäftsgrundsätze geben Orientierungshilfe für ethisches Verhalten und dafür, wie die Hannover",
+                                    "page": 82,
+                                    "index": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Rück-Gruppe Geschäfte betreibt. Sie sind zentraler Bestandteil der Unternehmenskultur.",
+                                    "page": 82,
+                                    "index": 5
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Weiterbildungsangebote, die an der Strategie, dem Kompetenzmodell der Hannover Rück-Gruppe sowie dem Selbstverständnis und den Werten  ausgerichtet sind, fördern zielgerichtet die berufliche und persönliche Weiterqualifizierung der Mitarbeitenden. Zudem stärken sogenannte Leadership Fundamentals ein gemeinsames Verständnis der Führungskultur innerhalb der Hannover Rück-Gruppe.",
+                                    "page": 82,
+                                    "index": 6
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die Wahrnehmung der Unternehmenskultur innerhalb der Belegschaft wird seit 2019 auf Basis einer jährlichen konzernweiten Umfrage erhoben. Diese wurde 2024 neu konzipiert und fokussiert sich auf das Engagement der  Mitarbeitenden („employee engagement survey“). Sie stellt damit eine  Weiterentwicklung des zuvor genutzten Organisational Health Checks (OHC) dar. Der OHC diente als Instrument zur Messung der „allgemeinen Gesundheit“ der Hannover Rück, mit primärem Fokus auf die Organisation, deren Prozesse und Systeme. Die neue Befragung zielt darauf ab, die Perspektive der Mitarbeitenden noch stärker widerzuspiegeln und ihre Anforderungen an ein motivierendes und attraktives Arbeitsumfeld zu  berücksichtigen. Die Compliance-Kultur der Hannover Rück-Gruppe wird durch Kampagnen wie die „Raise Awareness Campaign“, Schulungen  sowie das Speak-up-Verfahren (Hinweisgeberverfahren) gestärkt, das es Mitarbeitenden ermöglicht, auch anonym auf Missstände hinzuweisen.",
+                                    "page": 82,
+                                    "index": 7
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Richtlinien für die Unternehmensführung",
+                                    "page": 82,
+                                    "index": 8
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Compliance, d.h. regelkonformes Verhalten, ist für die Hannover RückGruppe essenziell: Das Nicht-Einhalten von Gesetzen, Vorschriften und  internen Richtlinien stellt neben einem juristischen ein Reputationsrisiko für die Hannover Rück-Gruppe dar, das zu einem Nachfragerückgang und  Kundenverlust führen kann  $( \\# 4 0 , \\# 4 1 )$ .",
+                                    "page": 82,
+                                    "index": 9
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "[MDR-P_65a] Die Hannover Rück verfügt über ein Governance- und Compliance-Management-System und wendet das System der „drei  Verteidigungslinien“ an. Dieses zielt darauf ab, unbewusste und bewusste Verstöße sowie Risiken zu erkennen und zu reduzieren. Die erste Verteidigungslinie besteht aus der Risikosteuerung und der originären Risikoverantwortung auf Bereichs- und Gesellschaftsebene. Die zweite  Verteidigungslinie besteht aus den Schlüsselfunktionen Risikomanagement, versicherungsmathematische Funktion sowie der Compliance-Funktion. Diese Funktionen sind für die prozessintegrierte Überwachung und Kontrolle zuständig. Die dritte Verteidigungslinie besteht  aus der prozessunabhängigen Prüfung durch die interne Revision. Das Verfahren zur Kontrolle aller Richtlinien wird in der Internal Control Group Policy definiert. [MDR-P_65a] Die Geschäftsgrundsätze (Code of Conduct)  enthalten verbindliche Vorgaben zu allen relevanten Themen des implementierten Compliance-Management-Systems und beschreiben den Rahmen zur Sicherstellung der Einhaltung von Gesetzen, Vorschriften und internen Richtlinien. Hinsichtlich der sozialen und ökologischen Verantwortung hat sich die Hannover Rück-Gruppe freiwillig den zehn Prinzipien des UN Global Compacts, den Principles for Sustainable Insurance und den Principles for Responsible Investments verpflichtet, die  in den Geschäftsgrundsätzen genannt werden. [MDR-P_65b] Die Geschäftsgrundsätze betreffen die gesamten Wertschöpfungsaktivitäten  inklusive vor- und nachgelagerter Akteure. [MDR-P_ 65c] Die Geschäftsgrundsätze sind der Compliance-Abteilung zugeordnet und  wurden von Vorstand und Aufsichtsrat beschlossen.",
+                                    "page": 82,
+                                    "index": 10
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "",
+                                    "page": 82,
+                                    "index": 11
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "[MDR-P_65a] Das implementierte Compliance-Management-System wird in der Compliance Group Policy beschrieben. Diese Policy beschreibt die Struktur und die Standards der Compliance-Funktion und regelt die Verantwortlichkeiten und Prozesse im Zusammenhang mit der Compliance-Funktion. [MDR-P_ 65c] Der Chief Compliance Officer trägt die Verantwortung für die Umsetzung der Policy. [MDR-P_65b] Die Compliance Group Policy umfasst die gesamten  Wertschöpfungsaktivitäten inklusive vor- und nachgelagerter Akteure.",
+                                    "page": 82,
+                                    "index": 12
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Reputationsrisiken können sich nicht nur bei eigenen Verstößen, sondern auch bei Verstößen von Geschäftspartnern gegen die Verhaltenskodizes ergeben. Umsatzeinbußen können durch Wettbewerbsverbote und durch die Aufnahme auf schwarze Listen infolge von Korruption und Bestechung entstehen  $( \\# 4 0 , \\# 4 1 )$ . Daher hat die Hannover Rück-Gruppe ergänzend eine Conflict of Interest Group Policy und einen Verhaltenskodex für  Lieferanten (Third Party Code of Conduct) implementiert.",
+                                    "page": 82,
+                                    "index": 13
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "[MDR-P_65a] Die Conflict of Interest Group Policy der Hannover RückGruppe regelt den Umgang mit Situationen, in denen die eigenen  Interessen eines Mitarbeitenden in Konkurrenz zu den Interessen der Hannover Rück-Gruppe stehen können. Die Policy zielt auf einen  transparenten Umgang beim Auftreten von Interessenkonflikten ab, um  einen rechtskonformen Umgang innerhalb des Unternehmens zu  gewährleisten. Hierfür legt die Policy Verhaltensweisen beim Auftreten von  Interessenkonflikten fest. [MDR-P_65b] Die Policy gilt für alle  Mitarbeitenden der Hannover Rück-Gruppe unabhängig von Position und",
+                                    "page": 82,
+                                    "index": 14
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Standort. [MDR-P_ 65c] Der Chief Compliance Officer trägt die Verantwortung für die Umsetzung der Policy.",
+                                    "page": 83,
+                                    "index": 15
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "[MDR-P_65a] Der Verhaltenskodex für Lieferanten (Third Party Code of  Conduct) stellt die Erwartungen der Hannover Rück-Gruppe hinsichtlich des Handelns ihrer Lieferanten dar und umfasst die Verpflichtung zur Einhaltung rechtlicher Vorgaben durch die Lieferanten, die Beachtung fairer Arbeitsbedingungen, weltweiter Menschenrechte sowie der Verantwortung für die Umwelt im Lieferantenmanagement. [MDR-P_65d] Hierbei wird auch explizit auf die Anforderungen der Internationalen Arbeitsorganisation (International Labour Organization [ILO]) referenziert. Übergeordnetes Ziel des Verhaltenskodex für Lieferanten ist es, dass das Verhalten des Geschäftspartners mit den Werten und Erwartungen der Hannover RückGruppe übereinstimmt. Der Verhaltenskodex gilt für alle Lieferanten, die in einer geschäftlichen Beziehung mit der Hannover Rück-Gruppe stehen. Große Lieferanten haben die Möglichkeit, alternativ einen gleichwertigen eigenen Verhaltenskodex zur Verfügung zu stellen. [MDR-P_65b] Die Hannover Rück-Gruppe prüft und stellt in der Lieferantenbeziehung alternativ auf diesen ab, sofern die wesentlichen Inhalte des Verhaltenskodex für Lieferanten der Hannover Rück-Gruppe enthalten  sind. [MDR-P_65c] Die Verantwortung für den Verhaltenskodex für Lieferanten liegt beim Chief Compliance Officer.",
+                                    "page": 83,
+                                    "index": 16
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Wettbewerbswidriges Verhalten",
+                                    "page": 83,
+                                    "index": 17
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "[MDR-P_65a] Als Rückversicherungsunternehmen steht die Hannover  Rück-Gruppe in einem wettbewerblichen Verhältnis mit anderen Rückversicherern. Um wettbewerbswidriges Verhalten zu verhindern und den fairen Wettbewerb zu fördern (#42), hat die Hannover Rück-Gruppe  neben dem Verhaltenskodex für Lieferanten und der Compliance Group Policy eine Antitrust-Law-Policy verabschiedet. Diese Policy legt Verhaltensanweisungen für Mitarbeitende zur Vermeidung von kartellrechtlichen Verstößen fest. [MDR-P_65b] Die Policy gilt für alle Mitarbeitenden der Hannover Rück-Gruppe, unabhängig von Position und Standort. [MDR-P_ 65c] Der Verantwortungsbereich für diese Policy liegt  beim Chief Compliance Officer.",
+                                    "page": 83,
+                                    "index": 18
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Responsible Investments",
+                                    "page": 83,
+                                    "index": 19
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "[MDR-P_65a] Die Hannover Rück-Gruppe verpflichtet sich den United  Nations Principles for Responsible Investment (UNPRI) und somit zu verantwortungsvollem Investieren. Die Hannover Rück fördert faires Geschäftsverhalten auch mit den Investmentaktivitäten durch den Ausschluss von Investitionen in Unternehmen mit wettbewerbswidrigem",
+                                    "page": 83,
+                                    "index": 20
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Verhalten und den Ausschluss von Investitionen in Unternehmen mit  schlechter Anti-Korruptionspolitik (#37). Für weiterführende Informationen zum Responsible-Investment-Konzept wird auf den Abschnitt  „Responsible Investment Policy” verwiesen.",
+                                    "page": 83,
+                                    "index": 21
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Cybersecurity und Datenschutz",
+                                    "page": 83,
+                                    "index": 22
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "[MDR-P_65a] Das Geschäft der Hannover Rück-Gruppe hängt von  Informationen ab. Deshalb muss die Hannover Rück die Vertraulichkeit, Integrität und Verfügbarkeit der Informationen sicherstellen und sie vor  unbefugter Offenlegung, Manipulation, Störung, Zerstörung oder sonstigem Missbrauch schützen. Für die Hannover Rück bestehen Haftungsrisiken im Falle von Datenschutzverletzungen und unzureichenden  Schutzmaßnahmen, die illegalen Zugriff begünstigen könnten. Zudem können Cyberangriffe bzw. der Verlust sensibler Informationen mit  erheblichen finanziellen Verlusten und Reputationsrisiken einhergehen (#45).",
+                                    "page": 83,
+                                    "index": 23
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Um die Risiken zu mitigieren und den Schutz von Informationen von  Firmenkunden, Lieferanten, Geschäftspartnern sowie den eigenen Mitarbeitenden sicherzustellen (#44), hat die Hannover Rück neben den Geschäftsgrundsätzen und der Compliance Group Policy eine Information Security Policy und eine Group Data Protection Guideline verabschiedet.",
+                                    "page": 83,
+                                    "index": 24
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die Information Security Policy definiert die strategischen Ziele, beschreibt das Information Security Management System (ISMS) mit seiner Organisationsstruktur, den Prozessen, den Erwartungen zum richtigen  Umgang sowie den Sensibilisierungs- und Schulungsmaßnahmen. Die Policy spiegelt internationale regulatorische Anforderungen, die externen  Standards ISO 27001 und NIST-500 sowie bewährte Verfahren im Bereich der Informations- und Cybersicherheit wider. Innerhalb des Operational Risk Management Framework der Hannover Rück-Gruppe behandelt sie speziell den Risikobereich der Informationssicherheit. [MDR-P_65b] Die Policy gilt für alle Mitarbeitenden der Hannover Rück-Gruppe, unabhängig von Position und Standort, die Zugang zu nicht öffentlichen Informationen  der Hannover Rück-Gruppe haben. Gegenüber externen Dritten wird der Einklang mit dieser Richtlinie über entsprechende Vertragsklauseln  abgedeckt. [MDR-P_65c] Für die Umsetzung dieser Policy ist der Chief  Information Security Officer verantwortlich.",
+                                    "page": 83,
+                                    "index": 25
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "[MDR-P_65a] Die Group Data Protection Guideline erläutert u.a. die in der Datenschutzgrundverordnung („DSGVO“) festgehaltenen Grundsätze für die Verarbeitung personenbezogener Daten sowie deren Umsetzung in die",
+                                    "page": 83,
+                                    "index": 26
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Strukturen der Hannover Rück-Gruppe. Des Weiteren definiert sie die  Rechte der Betroffenen und deren Einhaltung. [MDR-P_65b] Diese Leitlinie gilt für alle EU-Tochtergesellschaften, Servicegesellschaften, Repräsentanzen und Niederlassungen der Hannover Rück-Gruppe sowie für die Hannover Rück SE selbst. [MDR-P_ 65c] Tochtergesellschaften, Servicegesellschaften, Repräsentanzen und Niederlassungen in Nicht-EULändern setzen die Anforderungen dieser Richtlinie um, soweit sie nicht mit lokalen gesetzlichen und regulatorischen Anforderungen in Konflikt stehen. Die Verantwortung für diese Richtlinie trägt der Group Data Protection Officer. Das auf Basis der Group Data Protection Guideline implementierte Datenschutzmanagementsystem leistet einen wesentlichen Beitrag zum  Schutz von Informationen der Mitarbeitenden, Firmenkunden, Lieferanten  und der Geschäftspartner (#44).",
+                                    "page": 83,
+                                    "index": 27
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Korruption und Bestechung",
+                                    "page": 83,
+                                    "index": 28
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Das Thema Korruption und Bestechung ist u.a. in den  Geschäftsgrundsätzen, dem Verhaltenskodex für Lieferanten, der Compliance Group Policy und der Conflict of Interest Group Policy der Hannover Rück-Gruppe verankert. Die konzernweite Anwendung der Geschäftsgrundsätze sowie die Durchführung von themenbasierten  Schulungen der Mitarbeitenden dienen der Verhinderung von Korruption und Bestechung über die Konzerngrenzen hinaus (#35).",
+                                    "page": 83,
+                                    "index": 29
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "[G1-1_10a, c] Die Hannover Rück-Gruppe hat Mechanismen geschaffen, die der Ermittlung, Berichterstattung und Untersuchung rechtswidriger Verhaltensweisen oder Verhaltensweisen, die gegen die  Geschäftsgrundsätze verstoßen, dienen. Die Hannover Rück-Gruppe  verfügt über ein etabliertes Speak-up-Verfahren, das näher in den  Geschäftsgrundsätzen und in der Compliance Group Policy beschrieben wird. Sollten Mitarbeitende oder auch unternehmensfremde Personen  (Hinweisgeber) Kenntnis von Compliance-Verstößen, schädigenden Verhaltensweisen oder Risiken erhalten, besteht die Möglichkeit, diese Verdachtsfälle an den Chief Compliance Officer oder die ComplianceAbteilung persönlich, telefonisch, per E-Mail oder über ein onlinebasiertes  System auf Wunsch auch anonym zu melden. Spezifisch für die telefonische bzw. die Meldung per E-Mail wurde eine zentrale Rufnummer  bzw. E-Mail-Adresse eingerichtet. Darüber hinaus können sich die Beschäftigen konzernweit über eine an den Bereich Compliance innerhalb der Rechtsabteilung angebundene E-Mail-Adresse zu Compliance-Fragen beraten lassen. [G1-1_10b] Jeder bestätigte oder potenzielle Verstoß, der dem Chief Compliance Officer, der Compliance-Abteilung oder einem lokalen Compliance Officer gemeldet wird, wird untersucht, sofern",
+                                    "page": 83,
+                                    "index": 30
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "erforderlich unter Hinzunahme relevanter Fachabteilungen. Für die Durchführung einer Untersuchung wird uneingeschränkter Zugang zu Informationen gewährt, die für die Ermittlung des potenziellen Verstoßes erforderlich sind. Etwaige Hinweise und die daraufhin eingeleiteten Maßnahmen fließen in den jährlichen Compliance-Bericht ein. Der Compliance-Bericht wird dem Vorstand, dem Aufsichtsrat sowie dessen Finanz- und Prüfungsausschuss vorgelegt.",
+                                    "page": 84,
+                                    "index": 31
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Darüber hinaus hat die Hannover Rück-Gruppe Compliance-Vorgaben implementiert, die im Einklang mit dem Übereinkommen der Vereinten Nationen gegen Korruption stehen.",
+                                    "page": 84,
+                                    "index": 32
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "[G1-1_10,11] Das Konzept der Hannover Rück-Gruppe für organisationsinterne Schulungen zur Unternehmensführung, insbesondere im Bereich Compliance, kennzeichnet:",
+                                    "page": 84,
+                                    "index": 33
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Zielgruppe: alle Mitarbeitenden des Unternehmens, einschließlich neuer  Mitarbeitende bei Eintritt in den Konzern.",
+                                    "page": 84,
+                                    "index": 34
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Häufigkeit: Jeder Mitarbeitende erhält mindestens alle drei Jahre eine Compliance-Schulung. Zusätzlich gibt es unterjährig zielgruppenorientierte Schwerpunktschulungen zu verschiedenen Compliance-Themen nach Bedarf.",
+                                    "page": 84,
+                                    "index": 35
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "[G1-1_10g] Umfang: Das Schulungskonzept beinhaltet Themengebiet, Inhalt, Turnus, Art der Schulung und Zielgruppe. Es werden klassische  Kommunikationskanäle wie das Intranet-Portal genutzt, um Mitarbeitende für compliancerelevante Themen zu sensibilisieren. Die ComplianceAbteilung und der Chief Compliance Officer informieren auch über Gesetzesänderungen, welche die Tätigkeit der Mitarbeitenden betreffen. [G1-1_10h] Die Hannover Rück-Gruppe hat alle Abteilungen inklusive aller Außenstellen als risikobehaftete Funktionen identifiziert. Dazu zählen auch die Leitungsorgane und Führungskräfte.",
+                                    "page": 84,
+                                    "index": 36
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Schutz von Hinweisgebern",
+                                    "page": 84,
+                                    "index": 37
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "[G1-1_10c] Die konsequente Umsetzung und Kommunikation des Speakup-Verfahrens ermöglicht die Aufdeckung betrügerischen, illegalen oder  sonstigen Fehlverhaltens und stellt gleichzeitig den Schutz des  Hinweisgebenden sicher. Dadurch trägt die Hannover Rück-Gruppe zur Förderung von Sicherheit und Stabilität entlang der eigenen  Wertschöpfungskette bei (#39, #43). Mithilfe des Speak-up-Verfahrens haben Hinweisgebende die Möglichkeit, Compliance-Verstöße,",
+                                    "page": 84,
+                                    "index": 38
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "schädigende Verhaltensweisen oder Risiken zu melden. Um sicherzustellen, dass alle Mitarbeitenden über das Verfahren informiert  sind, werden zusätzliche Informationsquellen genutzt. Dazu gehören u.a. die Geschäftsgrundsätze, das konzernweit genutzte Intranet sowie Schulungen. Für die Abgabe von Hinweisen wurden verschiedene interne und externe Meldekanäle eingerichtet. [G1-1_10e; 11] Die Hannover RückGruppe hat einen Prozess etabliert, der sicherstellt, dass nach Eingang  einer Meldung eine unverzügliche Untersuchung durch den  Meldestellenbeauftragten initiiert wird. Der Zugang zu den verschiedenen  Meldekanälen ist zum Schutz des Hinweisgebenden, aber auch etwaiger  beschuldigter Mitarbeitender, streng limitiert, sodass nur der Chief  Compliance Officer sowie zwei weitere Mitarbeitende des Bereiches Compliance Zugriff haben. Mit Umsetzung des Speak-up-Verfahrens hat die Hannover Rück-Gruppe die Vorgaben des  Hinweisgeberschutzgesetzes („HinSchG“) implementiert.",
+                                    "page": 84,
+                                    "index": 39
+                                }
+                            ]
+                        },
+                        {
+                            "level": 2,
+                            "DR": "G1-3",
+                            "heading": "Verhinderung und Aufdeckung von Korruption und Bestechung [G1-3]",
+                            "blocks": [
+                                {
+                                    "type": "text",
+                                    "content": "[G1-3_18a] Die Hannover Rück-Gruppe toleriert keine Form der Korruption, insbesondere Bestechung und Bestechlichkeit, und beteiligt sich nicht an Transaktionen mit einem potenziell kriminellen Hintergrund. Die Hannover Rück-Gruppe verfügt über ein gruppenweit etabliertes ComplianceManagement-System, das in der Compliance Group Policy beschrieben  wird. Das Compliance-Management-System, wie es in der Hannover RückGruppe dauerhaft implementiert ist, basiert auf international anerkannten  Standards wie ISO 37301 und IDW AsS 980. Das System zielt darauf ab, das Unternehmen vor Risiken sowie Gesetzes- oder Regelverstößen zu  schützen. Ein zentrales Element dieses Systems ist das ComplianceRisiko. Die Compliance-Abteilung nutzt eine Risikomatrix zur Bewertung von Compliance-Risiken basierend auf Faktoren wie potenziellen  Geldbußen oder Reputationsrisiken und deren Eintrittswahrscheinlichkeit. Risikomitigierende Maßnahmen wie u.a. prozessinhärente Kontrollen, implementierte Arbeitsanweisungen oder Schulungsmaßnahmen werden regelmäßig auf ihre Angemessenheit und Wirksamkeit überprüft; bei Bedarf  werden zusätzliche oder optimierende Maßnahmen implementiert. Im Falle von Compliance-Vorfällen werden Maßnahmen basierend auf einer  Ursachenanalyse definiert, um zukünftige gleich gelagerte Vorfälle zu verhindern. Die Hannover Rück-Gruppe stellt sicher, dass nur unabhängige Mitarbeitende und Führungskräfte in die Untersuchungstätigkeit  einbezogen werden. [G1-3_18b] Die Untersuchung von ComplianceVorfällen erfolgt unabhängig von den in die Fälle involvierten",
+                                    "page": 84,
+                                    "index": 0
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Managementebenen. Dadurch werden die notwendige Transparenz und  Integrität sichergestellt. Die Gesamtverantwortung für das Thema  Compliance liegt beim Vorstand, der auch eine besondere Vorbildfunktion innehat. Darüber hinaus trägt die operative Verantwortung der Chief  Compliance Officer.",
+                                    "page": 84,
+                                    "index": 1
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Hinweise, die beispielsweise persönlich, telefonisch, per E-Mail oder über  das onlinebasierte Speak-up-System gemeldet werden, sowie Maßnahmen aus dem Compliance-Bereich werden jährlich in einem Compliance-Bericht zusammengefasst und den Leitungs- und Aufsichtsorganen vorgestellt. Der vom Chief Compliance Officer erstellte Bericht zielt darauf ab, die Führungsebene über die Einhaltung von globalen für die eigene  Geschäftstätigkeit relevanten gesetzlichen Auflagen und interne Richtlinien zu informieren und auf potenziellen Handlungsbedarf hinzuweisen, um  Entscheidungen im Sinne einer dauerhaften Integrität und  Gesetzeskonformität vorzubereiten. Zusätzlich finden regelmäßige Termine zwischen Vorstand und Chief Compliance Officer statt, um eine zeitnahe Berichterstattung zu gewährleisten; diese Termine können auch  ad hoc anberaumt werden. [G1-3_18c] Der Aufsichtsratsvorsitzende pflegt regelmäßigen Kontakt zum Vorstand, insbesondere zum Vorsitzenden, um  strategische und operative Themen wie Geschäftsentwicklung, Risikolage und Compliance zu besprechen.",
+                                    "page": 84,
+                                    "index": 2
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die Geschäftsgrundsätze der Hannover Rück-Gruppe, die auch das Thema Bekämpfung von Korruption und Bestechung umfassen, sind sowohl  öffentlich als auch über das Intranet einsehbar. Alle Mitarbeitenden haben Zugang zum Intranet, in dem zusätzliche Informationen zu ComplianceThemen und interne Richtlinien veröffentlicht sind. Änderungen an internen  Richtlinien werden monatlich per E-Mail an alle Mitarbeitenden am Standort Hannover kommuniziert. Die Mitarbeitenden an den übrigen Standorten  werden bei Bedarf über relevante Änderungen informiert. Zusätzlich nutzt  das Unternehmen direkte Kommunikation mit einzelnen Abteilungen zur weiteren Sensibilisierung. Führungskräfte sind ebenfalls angehalten, auf relevante Maßnahmen und Informationen hinzuweisen.",
+                                    "page": 84,
+                                    "index": 3
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Der Verhaltenskodex für Lieferanten (Third Party Code of Conduct) der Hannover Rück-Gruppe, der im Internet veröffentlicht ist, definiert die Erwartungen an die Integrität und das Geschäftsgebaren von  Drittdienstleistern und stellt die Haltung des Unternehmens zu Bestechung und Korruption dar. [G1-3_20] Potenzielle Lieferanten müssen ihre  Übereinstimmung mit diesem Kodex bei der Geschäftsanbahnung erklären.",
+                                    "page": 84,
+                                    "index": 4
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "[G1-3_21a] Alle Mitarbeitenden der Hannover Rück-Gruppe am Standort  Hannover (in den Außenstellen kann der Rhythmus abweichen) inklusive der Führungskräfte werden alle drei Jahre in einer Präsenzschulung (in den Außenstellen auch über ein Web-based Training [„WBT“]) zu ComplianceThemen geschult. Ziel der Compliance-Schulungen ist es, den  Mitarbeitenden der Hannover Rück-Gruppe die Inhalte der  Geschäftsgrundsätze (Code of Conduct) sowie die Vorgaben relevanter Policys zu erläutern, um sie so in die Lage zu versetzen, diesen Vorgaben entsprechend zu handeln.  Die Schulungen enthalten auch das Thema  „Bestechung und Korruption“, das in den Geschäftsgrundsätzen verankert  ist. Die Schulungen basieren auf einem umfassenden Schulungskonzept, das unterschiedliche Hierarchieebenen berücksichtigt. Die Schulungen  umfassen die Geschäftsgrundsätze mit folgenden Schwerpunkten: Speakup-System, Umgang mit Einladungen und Geschenken, Bekämpfung von Bestechung und Korruption, Umgang mit Interessenkonflikten und  Insiderinformationen, Sanktionen und Geldwäschebekämpfung. Zusätzlich werden die Mitarbeitenden über das Intranet-Portal über compliancerelevante Themen informiert und sensibilisiert.",
+                                    "page": 85,
+                                    "index": 5
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "[G1-3_21c] Die Hannover Rück-Gruppe toleriert keine Bestechung oder Korruption und fordert ihre Mitarbeitenden auf, Verdachtsfälle zu melden, wobei auch anonyme Meldungen möglich sind. Die gesamte Belegschaft, inklusive des Vorstands, wird als potenziell risikobehaftet betrachtet, wobei keine Differenzierung nach potenzieller Exposition erfolgt. Der prozentuale  Anteil der von Schulungsprogrammen abgedeckten risikobehafteten  Funktionen beträgt zum Berichtszeitpunkt $7 7 \\%$ . [G1-3_21b] Dieser prozentuale Anteil spiegelt die im aktuellen Zyklus durchgeführten Schulungsaktivitäten der risikobehafteten Funktionen wider. Der Schulungszyklus, in dem eine 100 $\\%$ -Schulungsquote angestrebt wird, betrachtet einen Zeitraum von drei Kalenderjahren. Der Vorstand und der Aufsichtsrat prüfen regelmäßig ihren Schulungsbedarf und planen entsprechende Schulungen, die auch das Thema Korruptionsbekämpfung beinhalten können. Die Schulungshäufigkeit von Vorstand und Aufsichtsrat ist daher nicht an den dreijährigen Turnus der übrigen Mitarbeitenden und Führungskräfte gebunden. Neue Vorstandsmitglieder erhalten bei ihrem Eintritt eine spezielle Unterweisung durch die Compliance-Abteilung, die auch die Sensibilisierung für Betrugsprävention und Bekämpfung von Finanzkriminalität einschließt. Im Berichtsjahr hat der Vorstand keinen Bedarf für weitere Compliance-Schulungen festgestellt. Ziel der  Compliance-Schulungen für Vorstand und Aufsichtsrat ist es, diesen Personenkreis gezielt auf die Einhaltung gesetzlicher Anforderungen zu schulen. Im Berichtsjahr wurde der Aufsichtsrat extern geschult.",
+                                    "page": 85,
+                                    "index": 6
+                                },
+                                {
+                                    "type": "title",
+                                    "content": "Kennzahlen",
+                                    "page": 85,
+                                    "index": 7
+                                }
+                            ]
+                        },
+                        {
+                            "level": 2,
+                            "DR": "G1-4",
+                            "heading": "Korruptions- oder Bestechungsfälle [G1-4]",
+                            "blocks": [
+                                {
+                                    "type": "text",
+                                    "content": "[G1-4_24a] Die Anzahl der Verurteilungen wegen Verstoßes gegen  Korruptions- und Bestechungsvorschriften für das Geschäftsjahr 2024 beträgt null. Die Höhe der Geldstrafen für Verstöße gegen Korruptions- und  Bestechungsvorschriften beträgt demzufolge ebenfalls 0 EUR.",
+                                    "page": 85,
+                                    "index": 0
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die Anzahl der gemeldeten Korruptions- und Bestechungsfälle ergibt sich aus den Meldungen über das Meldesystem der Hannover Rück-Gruppe, bestehend aus den verschiedenen Meldekanälen, Erkenntnissen aus Prüfungen durch interne Revision und aus Überwachungshandlungen der  Compliance-Funktion. [G1-4_24b] Die gemeldeten Vorfälle werden von der  Compliance-Funktion auf ihre Relevanz und Validität überprüft. Jeder Compliance-Vorfall wird anhand eines definierten Prüfprozesses dokumentiert, kategorisiert und bewertet. Die Kennzahlen können jederzeit von der internen Revisionsabteilung geprüft werden. Im Berichtszeitraum  wurde auf eine externe Validierung dieser Zahlen verzichtet.",
+                                    "page": 85,
+                                    "index": 1
+                                },
+                                {
+                                    "type": "text",
+                                    "content": "Die Negativmeldung bestätigt die Wirksamkeit der bestehenden Korruptionspräventions- und Bestechungsbekämpfungsmechanismen der  Hannover Rück-Gruppe. Deshalb wurden keine weiteren anlassbezogenen Maßnahmen oder Aktionspläne im Geschäftsjahr verabschiedet.",
+                                    "page": 85,
+                                    "index": 2
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
