@@ -254,6 +254,7 @@ class DirectoryTree():
     EXT_DATAPOINTS = "API/resources/datapoints/extracted/ESRS-Datapoints"
     PROMPT_DATAPOINTS = "API/resources/datapoints/prompts/ESRS-Datapoints.jsonl"
     PROMPT_FINE_TUNINGS = "API/resources/datapoints/prompts/ESRS-Datapoints_prompts.jsonl"
+    API_CONVOLUTIONS = "API/resources/datapoints/convoluted/Datapoint-Report_log"
     
     ENUMDIR = [API_IMPORT,API_RESULT,API_SRC_EXPORT,API_TEMP_FILE,XLS_DATAPOINTS,EXT_DATAPOINTS,PROMPT_DATAPOINTS,PROMPT_FINE_TUNINGS]
     

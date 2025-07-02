@@ -1,8 +1,9 @@
 import logging as log
+import pandas as pd
 import helper.Helpy as hp
 from helper.Konfiguration import DirectoryTree
 from helper.ReportExtractor import ExtractPDFReport
-from toolchain.ReportLoadJSON import ImportJSONReport
+from toolchain.ReportLoader import ImportJSONReport
 from toolchain.DataPointExtractor import ExtractDataPoints
 from toolchain.LlamaModelAPICall import call_lmstudio, promptRequest
 from toolchain.OpenAITool import chat_loop
@@ -12,7 +13,6 @@ log.basicConfig(format="%(asctime)s - %(message)s", datefmt="%Y-%m-%d %H:%M:%S",
 
 if __name__ == "__main__":
     ## Konfiguration ensure_directories
-
     dir = DirectoryTree.ENUMDIR
     #DirectoryTree.ensure_directories('.', [dir[4], dir[5], dir[2], dir[1]])
     
@@ -23,10 +23,7 @@ if __name__ == "__main__":
     
     report = ImportJSONReport(dir[0], dir[2])
     data = report.con_text_block(DirectoryTree.SHEET_NAME)
-    keys = ["Index", "Textabschnitt", "Code", "Heading", "Title", "Seite"]
-   
-    # print(report.export_to_json(keys, data))
-    
+    keys = pd.DataFrame({"keys":["Index", "Textabschnitt", "Code", "Heading", "Title", "Seite"]})
     
     ## LlamaManager APPLICATION with Session Handler
     call_lmstudio()

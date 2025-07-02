@@ -12,13 +12,14 @@ from helper.Konfiguration import DirectoryTree
 from sentence_transformers import SentenceTransformer
 from sentence_transformers.cross_encoder import CrossEncoder
 from transformers import AutoTokenizer, AutoModel
-from toolchain.ReportLoadJSON import ImportJSONReport
+from toolchain.ReportLoader import ImportJSONReport
 from toolchain.DataPointExtractor import ExtractDataPoints
 
 from datetime import datetime
 
 log_name = log.getLogger()
 log.basicConfig(format="%(asctime)s - %(message)s", datefmt="%Y-%m-%d %H:%M:%S", level=log.INFO)
+
 """
 # The above code requires the Llama 3.2 1B model. If you don't have the model, run the following command in the terminal to download it.
 # >_ lms get llama-3.2-1b-instruct
@@ -69,15 +70,15 @@ prompts = datapoints.read_data_file()
 report = ImportJSONReport(dir[0], dir[2])
 feed = report.con_text_block(DirectoryTree.SHEET_NAME)
 response_keys = ["Index", "Textabschnitt", "Code", "Heading", "Title", "Seite"]
-df = pd.DataFrame(data=feed,columns=response_keys)
-
+df = pd.DataFrame(feed,columns=response_keys)
+completion_sections = []
 
 # === 3. Prompt-Funktion ===
 def call_lmstudio(prompt = prompts):
     try:
-        response = model.completions(
+        response = model.completion(
             prompt=prompt,
-            expected_completions=completion_type,
+            expected_completions=completion_sections,
         )
         print(response.choices[0].messages)
         return hp.safe_strip(response.text)
@@ -87,14 +88,14 @@ def call_lmstudio(prompt = prompts):
 
 # === 4. Hauptfunktion ===
 def promptRequest():
-    df = prompts
+    df1 = df.merge(prompts, how="cross",left_index="Index", right_index="Code") # brauch ich als dataset datapoints x report sections
     results = []
     
     # TODO: überarbeiten finetuning
-    for i, row in df.iterrows():
-        index = hp.safe_strip(row.get("Index"))
-        code = hp.safe_strip(row.get("ID"))
-        id = hp.safe_strip(row.get("Code"))
+    for i, row in df1.iterrows():
+        completion_index = hp.safe_strip(row.get("Index"))
+        completion_code = hp.safe_strip(row.get("ID"))
+        completion_id = hp.safe_strip(row.get("Code"))
         esrs = hp.safe_strip(row.get("ESRS"))
         paragraph = hp.safe_strip(row.get("Paragraph"))
         name = hp.safe_strip(row.get("Name"))
@@ -102,38 +103,48 @@ def promptRequest():
         ar = hp.safe_strip(row.get("Related AR"))
         linked_reg = hp.safe_strip(row.get("Linked Regulations"))
         voluntary = hp.safe_strip(row.get("Voluntary"))
-        completion_type = hp.safe_strip(row.get("Data Type"))
-        section = hp.safe_strip(row.get("Textabschnitt"))
-        heading = hp.safe_strip(row.get("Heading"))
-        title = hp.safe_strip(row.get("Title"))
-        page = hp.safe_strip(row.get("Seite"))
+        type = hp.safe_strip(row.get("Data Type"))
+        completion_section = hp.safe_strip(row.get("Textabschnitt"))
+        completion_heading = hp.safe_strip(row.get("Heading"))
+        completion_title = hp.safe_strip(row.get("Title"))
+        completion_page = hp.safe_strip(row.get("Seite"))
         
-        # filter
-        #bif not index and not code:
-            # continue  # Leere Zeile überspringen
+        if not completion_index and not completion_code:
+            continue  # Leere Zeile überspringen
             # TODO Weiteres Error Handling
+            
+        completion_sections.append({
+            "completion_index": completion_index,
+            "completion_section": completion_section,
+            "completion_code": completion_code,
+            "completion_heading": completion_heading,
+            "completion_title": completion_title,
+            "completion_page": completion_page
+        })
         
         # TODO: Prompt formulieren; Datenpunkte überreichen und mit vereinfachten ESG-Report gegenüberstellen
-        # embedding
+        # embedding   datapoints x report
         # response_keys = ["Index", "Textabschnitt", "Code", "Heading", "Title", "Seite"]
-        prompt = f"{index} {section} {code} {heading} {title} {page} = {name}"
+        prompt = f"{completion_index} {completion_section} {completion_code} {completion_heading} {completion_title} {completion_page}"  #  | {completion_name}
         # print(f"🔍 Sende an LLM: {prompt[:80]}...")
         lm_response = call_lmstudio(prompt)
         
         results.append({
             "prompt": prompt,
-            "expected_completions": section,
+            "expected_completions": completion_sections,
             "model_response": lm_response
         })
     
-    if df.empty:
+    if df1.empty:
         print("⚠️ DataFrame ist leer – sende Testprompt...")
         test_response = call_lmstudio("Was ist die Aufgabe von ESRS G1?")
         print("📨 Antwort:", test_response)
     
+    cheat = ImportJSONReport.create_structured_json(completion_sections)
+    
     # === 5. Ergebnisse speichern ===
     with open(dir[1], "w", encoding="utf-8") as f:
-        for entry in results:
+        for entry in cheat:  # results
             f.write(json.dumps(entry, ensure_ascii=False) + "\n")
     
     log.info('✅ Alle Prompts wurden verarbeitet und gespeichert.')

@@ -13,7 +13,7 @@ import lmstudio as lms
 from openai import OpenAI
 from dotenv import load_dotenv
 from helper.Konfiguration import DirectoryTree
-from toolchain.ReportLoadJSON import ImportJSONReport
+from toolchain.ReportLoader import ImportJSONReport
 from toolchain.DataPointExtractor import ExtractDataPoints
 from sentence_transformers import SentenceTransformer
 from sentence_transformers.cross_encoder import CrossEncoder
