@@ -1,6 +1,12 @@
 import os
 import logging as log
 import helper.Helpy
+from lmstudio import (
+    BaseModel,
+    ModelSchema
+)
+from typing import Protocol
+import msgspec
 from enum import IntFlag, Enum, Flag, auto, EnumType
 from colorama import init, Fore, Back, Style
 
@@ -222,47 +228,42 @@ class Colors:
 class AutoName(Enum):
     def _generate_next_value_(name, start, count, last_values):
         return name
-
- 
+    
 class DirectoryTree():
     """
     ## Konfiguration ensure_directories
-    #0 api_src = "API/ImportReport/Nachhaltigkeitsbericht_Commerzbank_results.json"
-    #1 api_result = "API/ExportResult/ESRS-Datapoint-Report_result.json"
-    #2 api_comprehense = "API/ExportResult/Nachhaltigkeitsbericht-comp.json"
-    #3 src_datapoints = "resources/knowledgebase/datapoints/EFRAG_IG_3_List_of_ESRS.xlsx"
-    #4 ext_datapoints = "resources/datapoints/extracted/" + "ESRS-Datapoints"
-    #5 prompt_datapoints = "resources/datapoints/prompts/" + "ESRS-Datapoints.jsonl"
-    #6 prompt_finetunings = "resources/datapoints/prompts/" + "ESRS-Datapoints_prompts.jsonl"
-    sheet_name = "ESRS G1"
     """
     
     def __init__(self, build = False):
         self.build = build
     
     
-    ENUMDIR = []
     # [Index - Textabschnitt - Code (z.B. G1-1_01) - Heading - Title - Seite]
     # TODO: structured directory liste für ein build einrichten
-    [COMPANY := "HannoverRBCck"] #,"Commerzbank","Hypoport")
-    [SHEET_NAME := "ESRS G1"]
+    COMPANY = "HannoverRBCck" #,"Commerzbank","Hypoport")
+    SHEET_NAME = "ESRS G1"
     API_IMPORT = "API/ImportReport/Nachhaltigkeitsbericht_" + COMPANY + "_" + "results.json"
     API_RESULT = "API/ExportResult/" + "Datapoint-Report_result.json"
     API_SRC_EXPORT = "API/ExportResult/"
     API_TEMP_FILE = "Datapoint-Report_result.json"
     XLS_DATAPOINTS = "API/resources/knowledgebase/datapoints/EFRAG_IG_3_List_of_ESRS.xlsx"
     EXT_DATAPOINTS = "API/resources/datapoints/extracted/ESRS-Datapoints"
-    PROMPT_DATAPOINTS = "API/resources/datapoints/prompts/ESRS-Datapoints.jsonl"
+    PROMPT_DATAPOINTS = "API/resources/datapoints/prompts/ESRS-Datapoints"
     PROMPT_FINE_TUNINGS = "API/resources/datapoints/prompts/ESRS-Datapoints_prompts.jsonl"
-    API_CONVOLUTIONS = "API/resources/datapoints/convoluted/Datapoint-Report_log"
+    API_CONVOLUTIONS = "API/resources/datapoints/convoluted/" # + "Datapoint-Report_log"
     
-    ENUMDIR = [API_IMPORT,API_RESULT,API_SRC_EXPORT,API_TEMP_FILE,XLS_DATAPOINTS,EXT_DATAPOINTS,PROMPT_DATAPOINTS,PROMPT_FINE_TUNINGS]
+    DIRS = [API_IMPORT, API_RESULT, API_SRC_EXPORT, API_TEMP_FILE, XLS_DATAPOINTS, EXT_DATAPOINTS, PROMPT_DATAPOINTS, PROMPT_FINE_TUNINGS, API_CONVOLUTIONS]
+    FILES = [API_SRC_EXPORT, EXT_DATAPOINTS, API_CONVOLUTIONS, API_RESULT]
+    INOUT = [XLS_DATAPOINTS, EXT_DATAPOINTS, PROMPT_DATAPOINTS]
+    APIPORT = [API_IMPORT, API_RESULT, API_SRC_EXPORT+API_TEMP_FILE]
     
-    def create_list_output(self):
-        self.ENUMDIR
-        dirs = ""
-        for i, dir in enumerate(self.ENUMDIR,0):
-            dirs.append(dir[i])
+    
+    @staticmethod
+    def iter_list(lst:list[str]):
+        dirs = []
+        for i, dir in enumerate(lst, 0):
+            dirs.append(dir)
+            print(i,dir)
         return dirs
     
     
@@ -282,6 +283,18 @@ class DirectoryTree():
             os.makedirs(full_path, exist_ok=True)
             created_paths[folder] = full_path
         return created_paths
+        
+    @staticmethod
+    def ensure_directories(base_path: str = '.', dirs: list[str] = ['extracted', 'prompts']):
+        for d in dirs:
+            full_path = os.path.join(base_path, d)
+            if os.path.exists(full_path):
+                if not os.path.isdir(full_path):
+                    log.error(f"Path exists and is not a directory: {full_path}")
+                    continue
+            else:
+                os.makedirs(full_path, exist_ok=True)
+
 
 
 class LogFlags(IntFlag):

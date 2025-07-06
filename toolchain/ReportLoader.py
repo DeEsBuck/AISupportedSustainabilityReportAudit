@@ -1,3 +1,4 @@
+import os
 import re
 import json
 import pymupdf
@@ -8,6 +9,7 @@ import logging as log
 import numpy as np
 import pandas as pd
 from pathlib import Path
+from helper.Konfiguration import DirectoryTree
 from langchain.text_splitter import MarkdownTextSplitter
 
 log_name = log.getLogger()
@@ -30,16 +32,30 @@ class ImportJSONReport:
     def _load_json(self):
         '''
         Load and comprehend structured report output.
-        :return: dict if successful, else None
+        :return: dict if successful, else creates a JSON file 'a.json' in the directory and returns default content
         '''
+        json_file = self.path
         try:
-            json_file = self.path
-            with open(json_file, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-            return data
+            if os.path.isfile(json_file):
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                return data
+            else:
+                # If not a file, treat as directory
+                directory = json_file if os.path.isdir(json_file) else os.path.dirname(json_file)
+                if not os.path.exists(directory):
+                    os.makedirs(directory, exist_ok=True)
+                output_file = os.path.join(directory, f'{DirectoryTree.API_TEMP_FILE}')
+                self.out_path = output_file
+                default_content = {}
+                with open(output_file, 'w', encoding='utf-8') as f:
+                    json.dump(default_content, f, ensure_ascii=False, indent=2)
+                log.info(f"Created new JSON file at {output_file}")
+                return default_content
         except Exception as e:
-            print(f"Error loading JSON file: {e}")
+            log.error(f"Error handling path {json_file}: {e}")
             return None
+    
     
     def _flatten_blocks(self, blocks, context):
         '''
@@ -156,15 +172,6 @@ class ImportJSONReport:
         """
         Create a structured JSON object from a single section.
         The section should be a dict with keys: index, textabschnitt, code, heading, title, seite.
-        Example input:
-            {
-                "index": 1,
-                "textabschnitt": "Abschnitt 1",
-                "code": "G1-1_01",
-                "heading": "Einleitung",
-                "title": "Dokumentation",
-                "seite": 3
-            }
         """
         entry = {
             "Index": section.get("index"),
@@ -182,18 +189,6 @@ class ImportJSONReport:
         """
         Create a structured JSON list from a list of sections.
         Each section should be a dict with keys: index, textabschnitt, code, heading, title, seite.
-        Example input:
-            [
-                {
-                    "index": 1,
-                    "textabschnitt": "Abschnitt 1",
-                    "code": "G1-1_01",
-                    "heading": "Einleitung",
-                    "title": "Dokumentation",
-                    "seite": 3
-                },
-                ...
-            ]
         """
         result = []
         for section in sections:

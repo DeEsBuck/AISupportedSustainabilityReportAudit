@@ -23,36 +23,18 @@ from sentence_transformers.cross_encoder import CrossEncoder
 # >_ > Q4_K_S 4.46 GB Qwen2.5 7B Instruct 1M [Partial GPU offload possible] > Recommended
 # >_ lms load qwen2.5-7b-instruct-1m
 # >_ To use the model in the API/SDK, use the identifier "qwen2.5-7b-instruct-1m"
-'''
-curl http://localhost:1234/v1/chat/completions \
-  -H "Content-Type: application/json" \
-  -d '{
-    "model": "qwen2.5-7b-instruct-1m",
-    "messages": [
-      { "role": "system", "content": "Always answer in rhymes. Today is Thursday" },
-      { "role": "user", "content": "What day is it today?" }
-    ],
-    "temperature": 0.7,
-    "max_tokens": -1,
-    "stream": false
-}'
-'''
 
 log_name = lg.getLogger()
 log_name.setLevel(lg.INFO)
 
 ## Konfiguration ensure_directories
-dir = DirectoryTree.ENUMDIR
-# load_dotenv()
-# client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-print(load_dotenv())
+dir = DirectoryTree.DIRS
 api_key = os.getenv("OPENAI_API_KEY")
-# client_ = OpenAI(api_key=api_key)
 # Initialize LM Studio client
 client = OpenAI(base_url="http://127.0.0.1:1234/v1", api_key="lm-studio")
 MODEL = "qwen2.5-7b-instruct-1m"
 
-def fetch_report_content(search_query: str) -> dict:
+def fetch_esg_content(search_query: str) -> dict:
     '''
     search_query (datapoints trained LLM from LlamaModel) for Report tool (fetch Report Context depending Datablocks)
     :param search_query:
@@ -65,42 +47,14 @@ def fetch_report_content(search_query: str) -> dict:
         feed = report.con_text_block(DirectoryTree.SHEET_NAME)
         response_keys = ["Index", "Textabschnitt", "Code", "Heading", "Title", "Seite"]
         df = pd.DataFrame(data=feed, columns=response_keys)
-        search_params = {
-            "action": "query",
-            "format": "json",
-            "list": "search",
-            "srsearch": search_query,
-            "srlimit": 1,
+        results = {
+            "search": search_query,
         }
         
-        with open(dir[1], "w", encoding="utf-8") as f:
+        with open(dir[2], "w", encoding="utf-8") as f:
             for entry in results:
                 f.write(json.dumps(entry, ensure_ascii=False) + "\n")
-        
-        if not search_data["query"]["search"]:
-            return {
-                "status": "error",
-                "message": f"No article found for '{search_query}'",
-            }
-        
-        # Get the normalized title from search results
-        normalized_title = search_data["query"]["search"][0]["title"]
-        # Now fetch the actual content with the normalized title
-        content_params = {
-            "action": "query",
-            "format": "json",
-            "titles": normalized_title,
-            "prop": "extracts",
-            "exintro": "true",
-            "explaintext": "true",
-            "redirects": 1,
-        }
-        
-        content = df
-        return {
-            "status": "success",
-            "content": content,
-            "title": content['title'],
+                create_structured_json_single()
         }
     except Exception as e:
         return {"status": "error", "message": str(e)}
