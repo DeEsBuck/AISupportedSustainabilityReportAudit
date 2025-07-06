@@ -19,7 +19,8 @@ from lmstudio import (
     LMStudioPredictionError,
     ToolCallRequest
 )
-from helper.Helpy import safe_strip, oba
+from helper.match_prompts_feed import build_block_responses
+from helper.Helpy import safe_strip, oba, parse_prompts, prompt_line
 from helper.Konfiguration import DirectoryTree
 from sentence_transformers import SentenceTransformer
 from sentence_transformers.cross_encoder import CrossEncoder
@@ -36,9 +37,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # --- Schema Definitions ---
-def model_json_schema():
-    """Return a JSON schema dict describing this model."""
-    response_schema = {
+model_json_schema = []
+response_schema = {
         "type": "object",
         "properties": {
             "first_level_titles": {"type": "string"},
@@ -55,8 +55,8 @@ def model_json_schema():
             "bosToken": "<BOS>"
         }
     }
-    
-    response_keys = {
+
+response_keys = {
         "type": "object",
         "properties": {
             "Index": {"type": "integer"},
@@ -80,23 +80,34 @@ datapoints = ExtractDataPoints(dirs[4],
                                    dirs[6],
                                    DirectoryTree.SHEET_NAME)
 prompts = datapoints.read_data_file()
-
 report = ImportJSONReport(dir_paths[0], dir_paths[1])
 feed = report.con_text_block(DirectoryTree.SHEET_NAME)
 logger.info(f"Data loaded. Prompts: {prompts}, Feed: {feed}")
 
+# --- Schema Definitions ---
+# --- Step 1: Parse Prompt Strings into a DataFrame ---
+# --- Step 2: Merge feed and prompts DataFrames on 'ID' ---
+# --- Step 3: Build Response Schema Per Block ---
+idx_cols = ["max_level", "level", "section", "ESRS", "DR", "heading", "block_page"]
+#feed_df = pd.DataFrame(feed, columns=idx_cols)
+feed_df = report.load_and_flatten_json(DirectoryTree.SHEET_NAME)
+response_key = report.create_structured_json(feed_df)
+assert 'Index' in feed_df.columns, f"feed_df missing 'Index' column, columns: {feed_df.columns}"
+
+# If you have JSONL string for prompts
+prompts_df = parse_prompts(prompts)  # ensure this is a DataFrame with 'Index'
+assert 'Index' in prompts_df.columns, f"prompts_df missing 'Index' column, columns: {prompts_df.columns}"
+
+# Confirm columns
+print("feed_df columns:", feed_df.columns)
+print("prompts_df columns:", prompts_df.columns)
+
+merged = pd.merge(feed_df, prompts_df, on="Index", how="left", suffixes=('_feed', '_prompt'))
+responses = build_block_responses(merged, feed, bos_token_value="<BOS>")
+for resp in responses:
+    print(json.dumps(resp, ensure_ascii=False, indent=2))
+    
 # --- Tool Definitions ---
-def add(a: int, b: int) -> int:
-    """Given two numbers a and b, returns the sum of them."""
-    return a + b
-
-tool_def = ToolFunctionDef(
-    name="add",
-    description="Given two numbers a and b, returns the sum of them.",
-    parameters={"a": int, "b": int},
-    implementation=add,
-)
-
 def create_file(name: str, content: str) -> str:
     """Create a file with the given name and content."""
     dest_path = Path(name)
@@ -150,9 +161,6 @@ def init():
 
     logger.info(f"Context length: {model_complete.get_context_length()}")
 
-    embedding_vector = model_embedding.embed("embed Hello, world!")
-    logger.info(f"Embedding vector: {embedding_vector}")
-
     chat = lms.Chat("You are a task focused AI assistant")
     chat_h = lms.Chat.from_history({
         "messages": [
@@ -183,10 +191,13 @@ def init():
             print("Time to first token (seconds):", stats.time_to_first_token_sec)
             print("Stop reason:", stats.stop_reason)
             print("Fits in context:", does_chat_fit_in_context(model, chat))
+            
+            embedding_vector = model_embedding.embed(chat_h)
+            logger.info(f"Embedding vector: {embedding_vector}")
 
     except Exception as exc:
         logger.error(f"Error in chat loop: {exc}")
-
+    
     # Completion Example
     complete = model_complete.complete(
         "My name is",

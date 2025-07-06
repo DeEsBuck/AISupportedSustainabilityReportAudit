@@ -1,16 +1,54 @@
 from threading import Thread, Event
+from typing import Union
 import datetime as dt
+import pandas as pd
 import numpy as np
 import timeit
 import random
+import json
 import time
 import os
 
 
 # HelPi.py
 
-def safe_strip(value):
-    return str(value).strip() if value is not None else ""
+def parse_prompts(prompts_str):
+    """
+    Parse JSONL string (one JSON object per line) to DataFrame. If already DataFrame, return as is.
+    """
+    if isinstance(prompts_str, pd.DataFrame):
+        return prompts_str
+    prompt_dicts = []
+    for line in safe_strip(prompts_str).split('\n'):
+        if line:
+            try:
+                prompt_dicts.append(json.loads(line))
+            except Exception as e:
+                print(f"Skipping invalid line: {line[:40]}... ({e})")
+    return pd.DataFrame(prompt_dicts)
+
+def prompt_line(prompts_str: str) -> pd.DataFrame:
+    """
+    Parse a JSONL (one JSON object per line) string into a pandas DataFrame.
+    Skips lines that are not valid JSON.
+    :param prompts_str: String with one JSON object per line.
+    :return: DataFrame with one row per JSON object.
+    """
+    prompt_dicts = []
+    for i, line in enumerate(prompts_str.strip().split('\n')):
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            prompt_dicts.append(json.loads(line))
+        except json.JSONDecodeError as e:
+            print(f"Warning: Could not parse line {i}: {e}")
+    return pd.DataFrame(prompt_dicts)
+
+def safe_strip(s):
+    if isinstance(s, (bytes, bytearray)):
+        s = s.decode("utf-8")
+    return str(s).strip() if s is not None else ""
 
 
 def oba(Object, *optional):

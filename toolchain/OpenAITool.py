@@ -13,6 +13,7 @@ import lmstudio as lms
 from openai import OpenAI
 from dotenv import load_dotenv
 from helper.Konfiguration import DirectoryTree
+from helper.match_prompts_feed import build_block_responses
 from toolchain.ReportLoader import ImportJSONReport
 from toolchain.DataPointExtractor import ExtractDataPoints
 from sentence_transformers import SentenceTransformer
@@ -34,7 +35,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(base_url="http://127.0.0.1:1234/v1", api_key="lm-studio")
 MODEL = "qwen2.5-7b-instruct-1m"
 
-def fetch_esg_content(search_query: str) -> dict:
+def match_esg_block(search_query: str) -> dict:
     '''
     search_query (datapoints trained LLM from LlamaModel) for Report tool (fetch Report Context depending Datablocks)
     :param search_query:
@@ -45,17 +46,15 @@ def fetch_esg_content(search_query: str) -> dict:
         # Search for most relevant article
         report = ImportJSONReport(dir[0], dir[2])
         feed = report.con_text_block(DirectoryTree.SHEET_NAME)
-        response_keys = ["Index", "Textabschnitt", "Code", "Heading", "Title", "Seite"]
+        response_keys = build_block_responses(feed, report, bos_token_value="<BOS>")
         df = pd.DataFrame(data=feed, columns=response_keys)
         results = {
             "search": search_query,
         }
-        
         with open(dir[2], "w", encoding="utf-8") as f:
             for entry in results:
                 f.write(json.dumps(entry, ensure_ascii=False) + "\n")
                 create_structured_json_single()
-        }
     except Exception as e:
         return {"status": "error", "message": str(e)}
         
@@ -64,7 +63,7 @@ def fetch_esg_content(search_query: str) -> dict:
 ESG_TOOL = {
     "type": "function",
     "function": {
-        "name": "fetch_esg_content",
+        "name": "match_esg_block",
         "description": (
             "Search Report Text-Blocks and fetch the ESRS-Datapoints for matching or relevant text-blocks. "
             "Always use this if the user is asking for something that is likely on specific ESRS query needs to allocate on Report page. "
@@ -75,13 +74,36 @@ ESG_TOOL = {
             "properties": {
                 "search_query": {
                     "type": "string",
-                    "description": "Search query for finding the ESRS-Datapoints in ESG Reports",
+                    "description": "Search query for finding equivalent or likely ESRS-Datapoints. Search each Block in ESG Reports which fit to the context",
                 },
             },
             "required": ["search_query"],
         },
     },
 }
+
+def fetch_esrs_content(search_query: str) -> dict:
+    '''
+        search_query (datapoints trained LLM from LlamaModel) for Report tool (fetch Report Context depending Datablocks)
+        :param search_query:
+        :return:
+        '''
+    try:
+        # TODO: write a parser and traverse KV for searching and Embedding for analyzing
+        # Search for most relevant article
+        report = ImportJSONReport(dir[0], dir[2])
+        feed = report.con_text_block(DirectoryTree.SHEET_NAME)
+        response_keys = ["Index", "Textabschnitt", "Code", "Heading", "Title", "Seite"]
+        df = pd.DataFrame(data=feed, columns=response_keys)
+        results = {
+            "search": search_query,
+        }
+        with open(dir[2], "w", encoding="utf-8") as f:
+            for entry in results:
+                f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+                create_structured_json_single()
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
 
 # Define tool for LM Studio
 ESRS_TOOL = {

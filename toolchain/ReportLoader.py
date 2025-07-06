@@ -189,18 +189,23 @@ class ImportJSONReport:
         """
         Create a structured JSON list from a list of sections.
         Each section should be a dict with keys: index, textabschnitt, code, heading, title, seite.
+        Ignores non-dict entries.
         """
         result = []
         for section in sections:
-            entry = {
-                "Index": section.get("index"),
-                "Code": section.get("code"),
-                "Heading": section.get("heading"),
-                "Title": section.get("title"),
-                "Textabschnitt": section.get("textabschnitt"),
-                "Seite": section.get("seite")
-            }
-            result.append(entry)
+            if isinstance(section, dict):
+                entry = {
+                    "Index": section.get("index"),
+                    "Code": section.get("code"),
+                    "Heading": section.get("heading"),
+                    "Title": section.get("title"),
+                    "Textabschnitt": section.get("textabschnitt"),
+                    "Seite": section.get("seite"),
+                }
+                result.append(entry)
+            # Optionally: uncomment to log or track skipped entries
+            # else:
+            #     print(f"Skipping non-dict section: {section!r} ({type(section)})")
         return json.dumps(result, ensure_ascii=False, indent=2)
 
     
